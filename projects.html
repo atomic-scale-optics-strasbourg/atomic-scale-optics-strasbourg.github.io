@@ -1,67 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects — Atomic Scale Optics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Atomic-scale optics with STM</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header class="site-header">
-  <div class="container nav-wrap">
-    <a class="site-brand" href="index.html">
-      <span id="institution"></span>
-    </a>
 
-    <nav class="site-nav"></nav>
-  </div>
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="Atomic-scale optics with STM logo">
+    <span>
+      <strong>Atomic-scale optics</strong>
+      <small>with STM</small>
+    </span>
+  </a>
+
+  <nav class="site-nav"></nav>
+
 </header>
+
 
 <main>
 
+  <!-- PAGE INTRO -->
+
   <section class="page-hero">
-    <div class="container">
+
+    <div>
+
       <p class="eyebrow">Projects</p>
-      <h1>Research projects</h1>
+
+      <h1>
+        Research projects driving new experimental directions.
+      </h1>
+
       <p class="lead">
-        Our research is supported by national and European programmes
-        that enable the development of new approaches to atomic-scale optics.
+        Our research projects bring together advanced scanning probe
+        microscopy, optical spectroscopy and nanoscale materials
+        science to explore new regimes of light–matter interaction.
       </p>
+
     </div>
+
   </section>
 
-  <section class="content-section">
-    <div class="container">
-      <div id="projects-page"></div>
+
+  <!-- PROJECTS -->
+
+  <section class="section">
+
+    <div class="section-head">
+      <span>01</span>
+      <h2>Current projects</h2>
     </div>
+
+    <div id="projects-grid" class="research-grid"></div>
+
+  </section>
+
+
+  <!-- PROJECTS IN CONTEXT -->
+
+  <section class="dark-section">
+
+    <div class="section-head light">
+      <span>02</span>
+      <h2>Research programmes</h2>
+    </div>
+
+    <div class="dark-content">
+
+      <div>
+
+        <h3>European projects</h3>
+
+        <p>
+          European funding programmes provide the framework for
+          developing new experimental capabilities and exploring
+          frontier questions in atomic-scale optics.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h3>National research programmes</h3>
+
+        <p>
+          National and collaborative projects support the development
+          of new instrumentation, materials and experimental approaches
+          across scanning probe microscopy and nanophotonics.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h3>Collaborative research</h3>
+
+        <p>
+          Our projects involve collaborations with experimental and
+          theoretical groups working in molecular physics, condensed
+          matter physics, nanophotonics and quantum materials.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact-section">
+
+    <div>
+
+      <p class="eyebrow">Find us</p>
+
+      <h2>Atomic-scale optics with STM</h2>
+
+      <p id="contact-text"></p>
+
+    </div>
+
+    <a class="button button-light" id="contact-link">
+      Get in touch
+    </a>
+
   </section>
 
 </main>
 
-<footer class="site-footer">
-  <div class="container">
-    <p>Atomic Scale Optics</p>
-  </div>
+
+<footer>
+
+  <span>© Atomic-scale optics with STM</span>
+
+  <span>IPCMS · CNRS · Université de Strasbourg</span>
+
 </footer>
+
 
 <script src="js/content.js"></script>
 <script src="js/site.js"></script>
 
 <script>
-  document.getElementById("institution").textContent = siteContent.institution;
 
-  document.getElementById("projects-page").innerHTML =
-    siteContent.projects.map(p => `
-      <article class="project-block">
-        <p class="project-tag">${p.tag}</p>
-        <h2>${p.title}</h2>
-        <p>${p.text}</p>
-      </article>
-    `).join("");
+  /*
+   * Build the project cards from content.js.
+   */
+
+  const projectsGrid = document.getElementById("projects-grid");
+
+  if (projectsGrid && siteContent.projects) {
+
+    projectsGrid.innerHTML = siteContent.projects.map((item, index) => {
+
+      const number = String(index + 1).padStart(2, "0");
+
+      return `
+        <article class="research-card">
+
+          <div class="research-number">
+            ${number}
+          </div>
+
+          <div class="research-card-content">
+
+            <p class="project-tag">
+              ${item.tag}
+            </p>
+
+            <h3>
+              ${item.title}
+            </h3>
+
+            <p>
+              ${item.text}
+            </p>
+
+          </div>
+
+        </article>
+      `;
+
+    }).join("");
+
+  }
+
+
+  // Contact
+
+  document.getElementById("contact-text").innerHTML =
+    siteContent.contactText.replace(/\n/g, "<br>");
+
+  document.getElementById("contact-link").href =
+    "mailto:" + siteContent.contactEmail;
+
+
+  // Navigation
 
   renderNavigation("projects");
+
 </script>
 
 </body>
