@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research — Atomic-scale optics with STM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="Atomic-scale optics with STM logo">
+    <span>
+      <strong>Atomic-scale optics</strong>
+      <small>with STM</small>
+    </span>
+  </a>
+
+  <nav class="site-nav"></nav>
+</header>
+
+<main>
+
+  <!-- PAGE INTRO -->
+
+  <section class="page-hero">
+    <div>
+      <p class="eyebrow">Research</p>
+      <h1>Exploring light–matter interactions at the atomic scale.</h1>
+      <p class="lead">
+        We combine scanning tunnelling microscopy, optical spectroscopy
+        and nanoscale materials science to investigate and control
+        electronic and optical phenomena at the ultimate length scale.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESEARCH AXES -->
+
+  <section class="section">
+
+```
+<div class="section-head">
+  <span>01</span>
+  <h2>Research directions</h2>
+</div>
+
+<div id="research-grid" class="research-grid"></div>
+```
+
+  </section>
+
+  <!-- APPROACH -->
+
+  <section class="dark-section">
+
+```
+<div class="section-head light">
+  <span>02</span>
+  <h2>Our approach</h2>
+</div>
+
+<div class="dark-content">
+
+  <div>
+    <h3>Scanning probe microscopy</h3>
+    <p>
+      STM and related scanning probe techniques provide access to
+      electronic structure, molecular excitations and nanoscale
+      interactions with atomic spatial resolution.
+    </p>
+  </div>
+
+  <div>
+    <h3>Light at the nanoscale</h3>
+    <p>
+      We combine tunnelling spectroscopy with optical excitation
+      and photon detection, including STML, STM-LE, TERS and TEPL.
+    </p>
+  </div>
+
+  <div>
+    <h3>From molecules to quantum materials</h3>
+    <p>
+      Our systems range from individual molecules and molecular
+      assemblies to graphene nanoribbons and two-dimensional
+      materials, with a particular focus on engineered quantum
+      states and quantum emitters.
+    </p>
+  </div>
+
+</div>
+```
+
+  </section>
+
+  <!-- EXPERIMENTAL FRONTIER -->
+
+  <section class="section">
+
+```
+<div class="section-head">
+  <span>03</span>
+  <h2>Experimental frontier</h2>
+</div>
+
+<div class="research-intro">
+  <p>
+    Our experimental platforms combine cryogenic scanning tunnelling
+    microscopy with advanced optical excitation and detection.
+    Current developments include ultrafast and tunable laser
+    excitation, high-resolution optical spectroscopy and
+    time-resolved measurements at the nanoscale.
+  </p>
+
+  <p>
+    The goal is to access light-induced electronic and optical
+    phenomena with unprecedented spatial, spectral and temporal
+    resolution.
+  </p>
+</div>
+```
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact-section">
+
+```
+<div>
+  <p class="eyebrow">Find us</p>
+
+  <h2>Atomic-scale optics with STM</h2>
+
+  <p id="contact-text"></p>
+</div>
+
+<a class="button button-light" id="contact-link">
+  Get in touch
+</a>
+```
+
+  </section>
+
+</main>
+
+<footer>
+  <span>© Atomic-scale optics with STM</span>
+  <span>IPCMS · CNRS · Université de Strasbourg</span>
+</footer>
+
+<script src="js/content.js"></script>
+
+<script src="js/site.js"></script>
+
+<script>
+
+  renderResearch(
+    document.getElementById("research-grid"),
+    siteContent.research
+  );
+
+  document.getElementById("contact-text").innerHTML =
+    siteContent.contactText.replace(/\n/g, "<br>");
+
+  document.getElementById("contact-link").href =
+    "mailto:" + siteContent.contactEmail;
+
+  renderNavigation();
+
+</script>
+
+</body>
+</html>
