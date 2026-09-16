@@ -23,7 +23,7 @@ const siteContent = {
   institution: "IPCMS · CNRS & Université de Strasbourg",
   heroTitle: "Light–matter interactions",
   heroTitleAccent: "at the atomic scale.",
-  heroText: "We explore and control the electronic and optical properties of molecules, nanostructures and quantum materials with scanning tunnelling microscopy and spectroscopy.",
+  heroText: "Imaging, controlling and understanding quantum phenomena with light and scanning tunnelling microscopy.",
   contactEmail: "guillaume.schull@ipcms.fr",
   contactText: "IPCMS — CNRS & Université de Strasbourg\nCampus de Cronenbourg, Strasbourg, France",
 
