@@ -94,6 +94,5 @@ const siteContent = {
   // ---------- PUBLICATIONS ----------
   publications: [
     {year:2026, title:"Length-independent quantum transport through engineered band states", authors:"S. Jiang, et al.", journal:"ACS Nano", tags:["Quantum transport","STM","Molecular systems"], toc:"", doi:"10.1021/acsnano.6c08307", hal:""},
-    {year:2026, title:"Topological Frenkel excitons in 2D molecular crystals", authors:"Q. Stein, S. Nayak, J. Kuhlke, S. Jiang, M. Romeo, F. Scheurer, K. Kaiser, T. Frederiksen, T. Neuman, G. Schull", journal:"Nature", tags:["Excitons","2D materials","STM-LE"], toc:"", doi:"", hal:""}
   ]
 };
