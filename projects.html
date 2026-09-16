@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Atomic Scale Optics</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="site-brand" href="index.html">
+      <span id="institution"></span>
+    </a>
+
+    <nav class="site-nav"></nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Projects</p>
+      <h1>Research projects</h1>
+      <p class="lead">
+        Our research is supported by national and European programmes
+        that enable the development of new approaches to atomic-scale optics.
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <div id="projects-page"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Atomic Scale Optics</p>
+  </div>
+</footer>
+
+<script src="js/content.js"></script>
+<script src="js/site.js"></script>
+
+<script>
+  document.getElementById("institution").textContent = siteContent.institution;
+
+  document.getElementById("projects-page").innerHTML =
+    siteContent.projects.map(p => `
+      <article class="project-block">
+        <p class="project-tag">${p.tag}</p>
+        <h2>${p.title}</h2>
+        <p>${p.text}</p>
+      </article>
+    `).join("");
+
+  renderNavigation("projects");
+</script>
+
+</body>
+</html>
