@@ -30,10 +30,10 @@ const siteContent = {
   // ---------- MENU ----------
   navigation: [
     {label: "News", href: "news.html"},
-    {label: "Research", href: "index.html#research"},
+    {label: "Research", href: "research"},
     {label: "Team", href: "team.html"},
     {label: "Publications", href: "publications.html"},
-    {label: "Projects", href: "index.html#projects"},
+    {label: "Projects", href: "projects"},
     {label: "Contact", href: "index.html#contact"}
   ],
 
