@@ -26,3 +26,11 @@ footer{padding:25px 7vw;display:flex;justify-content:space-between;font-size:11p
 .hero-visual .crosshair {
   display: none !important;
 }
+.hero-image {
+  width: 100%;
+  max-width: 480px;
+  max-height: 330px;
+  object-fit: contain;
+  display: block;
+}
+
