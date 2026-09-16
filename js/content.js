@@ -19,7 +19,7 @@ DESIGN (colours/fonts/sizes) is in css/style.css.
 const siteContent = {
   // ---------- GENERAL ----------
   siteTitle: "Atomic-scale optics",
-  siteSubtitle: "with STM",
+  siteSubtitle: "with SPM",
   institution: "IPCMS · CNRS & Université de Strasbourg",
   heroTitle: "Light–matter interactions",
   heroTitleAccent: "at the atomic scale.",
