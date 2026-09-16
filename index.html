@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -27,10 +28,12 @@
   <!-- HERO -->
 
   <section class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow" id="institution"></p>
 
 ```
+<div class="hero-copy">
+
+  <p class="eyebrow" id="institution"></p>
+
   <h1 id="hero-title"></h1>
 
   <p class="lead" id="hero-text"></p>
@@ -39,6 +42,7 @@
     <a class="button" href="research.html">Explore our research</a>
     <a class="text-link" href="team.html">Meet the team →</a>
   </div>
+
 </div>
 
 <div class="hero-visual">
@@ -97,11 +101,13 @@
 
 ```
 <div>
+
   <p class="eyebrow">Find us</p>
 
   <h2>Atomic-scale optics with STM</h2>
 
   <p id="contact-text"></p>
+
 </div>
 
 <a class="button button-light" id="contact-link">
@@ -125,6 +131,7 @@
 <script>
 
   // Homepage content
+
   document.getElementById("institution").textContent =
     siteContent.institution;
 
@@ -134,13 +141,17 @@
   document.getElementById("hero-text").textContent =
     siteContent.heroText;
 
+
   // Latest news
+
   renderNews(
     document.getElementById("latest-news"),
     siteContent.news.slice(0, 2)
   );
 
+
   // Latest publications
+
   document.getElementById("publications-heading").textContent =
     siteContent.sectionTitles.publications;
 
@@ -149,14 +160,18 @@
     siteContent.publications.slice(0, 3)
   );
 
+
   // Contact
+
   document.getElementById("contact-text").innerHTML =
     siteContent.contactText.replace(/\n/g, "<br>");
 
   document.getElementById("contact-link").href =
     "mailto:" + siteContent.contactEmail;
 
+
   // Navigation
+
   renderNavigation();
 
 </script>
