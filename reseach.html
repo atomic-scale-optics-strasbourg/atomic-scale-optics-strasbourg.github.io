@@ -29,13 +29,18 @@
   <section class="page-hero">
     <div>
       <p class="eyebrow">Research</p>
-      <h1>Exploring light–matter interactions at the atomic scale.</h1>
-      <p class="lead">
-        We combine scanning tunnelling microscopy, optical spectroscopy
-        and nanoscale materials science to investigate and control
-        electronic and optical phenomena at the ultimate length scale.
-      </p>
-    </div>
+
+```
+  <h1>Exploring light–matter interactions at the atomic scale.</h1>
+
+  <p class="lead">
+    We combine scanning tunnelling microscopy, optical spectroscopy
+    and nanoscale materials science to investigate and control
+    electronic and optical phenomena at the ultimate length scale.
+  </p>
+</div>
+```
+
   </section>
 
   <!-- RESEARCH AXES -->
@@ -67,6 +72,7 @@
 
   <div>
     <h3>Scanning probe microscopy</h3>
+
     <p>
       STM and related scanning probe techniques provide access to
       electronic structure, molecular excitations and nanoscale
@@ -76,6 +82,7 @@
 
   <div>
     <h3>Light at the nanoscale</h3>
+
     <p>
       We combine tunnelling spectroscopy with optical excitation
       and photon detection, including STML, STM-LE, TERS and TEPL.
@@ -84,6 +91,7 @@
 
   <div>
     <h3>From molecules to quantum materials</h3>
+
     <p>
       Our systems range from individual molecules and molecular
       assemblies to graphene nanoribbons and two-dimensional
@@ -108,6 +116,7 @@
 </div>
 
 <div class="research-intro">
+
   <p>
     Our experimental platforms combine cryogenic scanning tunnelling
     microscopy with advanced optical excitation and detection.
@@ -121,6 +130,7 @@
     phenomena with unprecedented spatial, spectral and temporal
     resolution.
   </p>
+
 </div>
 ```
 
@@ -132,11 +142,13 @@
 
 ```
 <div>
+
   <p class="eyebrow">Find us</p>
 
   <h2>Atomic-scale optics with STM</h2>
 
   <p id="contact-text"></p>
+
 </div>
 
 <a class="button button-light" id="contact-link">
@@ -159,16 +171,56 @@
 
 <script>
 
-  renderResearch(
-    document.getElementById("research-grid"),
-    siteContent.research
-  );
+  /*
+   * Build the research cards directly from content.js.
+   * This avoids requiring a separate renderResearch() function.
+   */
+
+  const researchGrid = document.getElementById("research-grid");
+
+  if (researchGrid && siteContent.research) {
+
+    researchGrid.innerHTML = siteContent.research.map((item, index) => {
+
+      const number = String(index + 1).padStart(2, "0");
+
+      return `
+        <article class="research-card">
+
+          <div class="research-number">
+            ${number}
+          </div>
+
+          <div class="research-card-content">
+
+            <h3>
+              ${item.title}
+            </h3>
+
+            <p>
+              ${item.text}
+            </p>
+
+          </div>
+
+        </article>
+      `;
+
+    }).join("");
+
+  }
+
+
+  // Contact
 
   document.getElementById("contact-text").innerHTML =
     siteContent.contactText.replace(/\n/g, "<br>");
 
   document.getElementById("contact-link").href =
     "mailto:" + siteContent.contactEmail;
+
+
+  // Navigation
 
   renderNavigation();
 
