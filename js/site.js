@@ -23,9 +23,13 @@ function renderTeam(){
 }
 
 function renderPublications(target,list){
-  target.innerHTML=list.map(p=>`
+  target.innerHTML=list.map((p,i)=>`
     <article class="pub-card">
-      <div class="pub-year">${p.year}</div>
+      ${i === 0 || p.year !== list[i - 1].year
+        ? `<div class="pub-year">${p.year}</div>`
+        : ""
+      }
+
 
       <div class="pub-main">
         ${p.toc
