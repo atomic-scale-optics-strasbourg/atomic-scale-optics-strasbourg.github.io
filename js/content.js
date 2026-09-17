@@ -194,8 +194,8 @@ const siteContent = {
     title: "Tip-induced excitonic luminescence nanoscopy of an atomically resolved van der Waals heterostructure",
     authors: "L. E. Parra López, Anna Rosławska, Fabrice Scheurer, Stéphane Berciaud, Guillaume Schull",
     journal: "Nature Materials 22, 482–488 (2023)",
-    journalLink: "https://www.nature.com/articles/s41563-023-01516-0",
-    toc: "",
+    journalLink: "https://www.nature.com/articles/s41563-023-01494-4",
+    toc: "assets/2D.png",
     hal: "",
     arxiv: "",
     zenodo: ""
