@@ -110,6 +110,10 @@ h3 {
   overflow: hidden;
 }
 
+.hero > div:first-child {
+  transform: translateY(-35px);
+}
+
 .eyebrow,
 .project-tag {
   font-size: 12px;
@@ -773,6 +777,5 @@ footer {
   max-height: 4000px;
   object-fit: contain;
   display: block;
-  transform: translateY(20px);
 }
 }
