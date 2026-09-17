@@ -467,18 +467,6 @@ const siteContent = {
 
   {
     year: 2014,
-    title: "Structure and dynamics of C60 molecules on Au(111)",
-    authors: "Heekeun Shin, A. Schwarze, R. D. Diehl, K. Pussi, A. Colombier, E. Gaudry, J. Ledieu, G. M. McGuirk, L. N. Serkovic Loli, V. Fournee, L. L. Wang, Guillaume Schull, R. Berndt",
-    journal: "Physical Review B 89, 245428 (2014)",
-    journalLink: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.245428",
-    toc: "",
-    hal: "",
-    arxiv: "",
-    zenodo: ""
-  },
-
-  {
-    year: 2014,
     title: "Chemical control of electrical contact to sp2 carbon atoms",
     authors: "Thomas Frederiksen, G. Foti, Fabrice Scheurer, V. Speisser, Guillaume Schull",
     journal: "Nature Communications 5, 3659 (2014)",
@@ -501,17 +489,6 @@ const siteContent = {
     zenodo: ""
   },
 
-  {
-    year: 2013,
-    title: "Magnetism of CoPd self-organized alloy clusters on Au(111)",
-    authors: "P. Ohresser, E. Otero, F. Wilhelm, A. Rogalev, C. Goyhenex, L. Joly, H. Bulou, M. Romeo, V. Speisser, J. Arabski, Guillaume Schull, Fabrice Scheurer",
-    journal: "Journal of Applied Physics 114, 223912 (2013)",
-    journalLink: "https://pubs.aip.org/jap/article/114/22/223912/353100",
-    toc: "",
-    hal: "",
-    arxiv: "",
-    zenodo: ""
-  },
 
   {
     year: 2013,
@@ -519,18 +496,6 @@ const siteContent = {
     authors: "G. Reecht, H. Bulou, F. Scheurer, V. Speisser, B. Carrière, F. Mathevet, Guillaume Schull",
     journal: "Physical Review Letters 110, 056802 (2013)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.056802",
-    toc: "",
-    hal: "",
-    arxiv: "",
-    zenodo: ""
-  },
-
-  {
-    year: 2011,
-    title: "Light emission from a double-decker molecule on a metal surface",
-    authors: "N. L. Schneider, F. Matino, Guillaume Schull, S. Gabutti, M. Mayor, R. Berndt",
-    journal: "Physical Review B 84, 153403 (2011)",
-    journalLink: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.84.153403",
     toc: "",
     hal: "",
     arxiv: "",
@@ -548,42 +513,6 @@ const siteContent = {
     arxiv: "",
     zenodo: ""
   },
-
-  {
-    year: 2011,
-    title: "Solution-growth kinetics and thermodynamics of nanoporous self-assembled molecular monolayers",
-    authors: "Amandine Bellec, Claire Arigoni, Guillaume Schull, Ludovic Douillard, Céline Fiorini-Debuisschert, Fabrice Mathevet, David Kreher, André-Jean Attias, Fabrice Charra",
-    journal: "The Journal of Chemical Physics 134, 124702 (2011)",
-    journalLink: "https://pubs.aip.org/jcp/article/134/12/124702/350171",
-    toc: "",
-    hal: "",
-    arxiv: "",
-    zenodo: ""
-  },
-
-  {
-    year: 2011,
-    title: "Atomic-scale engineering of electrodes for single-molecule contacts",
-    authors: "Guillaume Schull, Thomas Frederiksen, A. Arnau, D. Sánchez-Portal, Richard Berndt",
-    journal: "Nature Nanotechnology 6, 23–27 (2011)",
-    journalLink: "https://www.nature.com/articles/nnano.2010.224",
-    toc: "",
-    hal: "",
-    arxiv: "",
-    zenodo: ""
-  },
-
-  {
-    year: 2011,
-    title: "Electronic decoupling of a cyclophane from a metal surface",
-    authors: "F. Matino, Guillaume Schull, F. Köhler, S. Gabutti, M. Mayor, Richard Berndt",
-    journal: "Proceedings of the National Academy of Sciences 108, 961–966 (2011)",
-    journalLink: "https://www.pnas.org/doi/10.1073/pnas.1018427108",
-    toc: "",
-    hal: "",
-    arxiv: "",
-    zenodo: ""
-   }
 
 ]
 };
