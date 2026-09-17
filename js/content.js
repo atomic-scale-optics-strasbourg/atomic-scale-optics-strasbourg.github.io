@@ -100,7 +100,6 @@ publications: [
     journal: "ACS Nano 20, 23929 (2026)",
     toc: "",
     journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
-    doi: "10.1021/acsnano.6c08307",
     hal: "",
     arxiv: ""
   },
