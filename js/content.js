@@ -100,7 +100,7 @@ const siteContent = {
     journal: "ACS Nano 20, 23929–23940 (2026)",
     journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
     doi: "10.1021/acsnano.6c08307",
-    toc: "",
+    toc: "assets/Transport 1.png",
     hal: "",
     arxiv: "https://arxiv.org/abs/2208.03145",
     zenodo: "https://zenodo.org/records/15688130"
