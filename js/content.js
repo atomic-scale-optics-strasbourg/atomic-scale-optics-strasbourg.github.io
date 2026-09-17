@@ -146,7 +146,7 @@ const siteContent = {
     title: "Exploring the Role of Excited States’ Degeneracy on Vibronic Coupling with Atomic-Scale Optics",
     authors: "Konstantin Vasilev, Francesca Canola, Fabrice Scheurer, Alex Boeglin, Felix Lotthammer, Franck Chérioux, Tomáš Neuman, Guillaume Schull",
     journal: "ACS Nano 18, 28052–28061 (2024)",
-    journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.4c06994",
+    journalLink: "https://doi.org/10.1021/acsnano.4c07136",
     toc: "",
     hal: "",
     arxiv: "",
