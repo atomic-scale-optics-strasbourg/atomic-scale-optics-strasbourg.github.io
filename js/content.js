@@ -183,7 +183,7 @@ const siteContent = {
     authors: "Song Jiang, Tomáš Neuman, Rémi Bretel, Alex Boeglin, Fabrice Scheurer, Eric Le Moal, Guillaume Schull",
     journal: "Physical Review Letters 130, 126202 (2023)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.126202",
-    toc: "",
+    toc: "assets/many.png",
     hal: "",
     arxiv: "https://arxiv.org/abs/2210.00126",
     zenodo: ""
