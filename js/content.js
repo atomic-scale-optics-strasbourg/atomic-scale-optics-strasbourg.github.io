@@ -91,338 +91,540 @@ const siteContent = {
     ]
   },
 
-   // ---------- PUBLICATIONS ----------
   publications: [
-    {
-      year: 2026,
-      title: "Length-independent quantum transport through engineered band states",
-      authors: "S. Jiang, Fabrice Scheurer, Qiang Sun, Pascal Ruffieux, Xuelin Yao, Akimitsu Narita, Klaus Müllen, Roman Fasel, Thomas Frederiksen, Guillaume Schull",
-      journal: "ACS Nano 20, 23929 (2026)",
-      toc: "assets/Transport 1.png",
-      journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
-      doi: "10.1021/acsnano.6c08307",
-      hal: "https://hal.science/hal-05744254v1/document",
-      arxiv: "",
-      zenodo: "https://zenodo.org/records/15688130"
-    },
 
-    {
-      year: 2026,
-      title: "Tip-enhanced molecular fluorescence microscopy with atomic-scale resolution",
-      authors: "A. Rosławska, K. Kaiser, S. Canola, S. Jiang, J. Aizpurua, T. Neuman, G. Schull",
-      journal: "Rev. Mod. Phys. 98, 025007 (2026)",
-      toc: "",
-      journalLink: "https://journals.aps.org/rmp/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2026,
+    title: "Length-Independent Quantum Transport through Engineered Band States in Graphene Nanoribbon Junctions",
+    authors: "Song Jiang, Fabrice Scheurer, Qiang Sun, Pascal Ruffieux, Xuelin Yao, Akimitsu Narita, Klaus Müllen, Roman Fasel, Thomas Frederiksen, Guillaume Schull",
+    journal: "ACS Nano 20, 23929–23940 (2026)",
+    journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
+    doi: "10.1021/acsnano.6c08307",
+    toc: "",
+    hal: "",
+    arxiv: "https://arxiv.org/abs/2208.03145",
+    zenodo: "https://zenodo.org/records/15688130"
+  },
 
-    {
-      year: 2025,
-      title: "Electrically Driven Cascaded Photon Emission in a Single Molecule",
-      authors: "K. Kaiser, A. Rosławska, M. Romeo, F. Scheurer, T. Neuman, G. Schull",
-      journal: "Phys. Rev. X 15, 021072 (2025)",
-      toc: "",
-      journalLink: "https://journals.aps.org/prx/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2026,
+    title: "Tip-enhanced molecular fluorescence microscopy with atomic-scale resolution",
+    authors: "Anna Rosławska, Katharina Kaiser, Sofia Canola, Song Jiang, Fabrice Scheurer, Javier Aizpurua, Tomáš Neuman, Guillaume Schull",
+    journal: "Reviews of Modern Physics 98, 025007 (2026)",
+    journalLink: "https://journals.aps.org/rmp/abstract/10.1103/pqvw-kv92",
+    doi: "10.1103/pqvw-kv92",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2024,
-      title: "Fluorescence from a single-molecule probe directly attached to a plasmonic STM tip",
-      authors: "N. Friedrich, A. Rosławska, X. Arrieta, K. Kaiser, M. Romeo, E. Le Moal, J. Aizpurua, A. G. Borisov, T. Neuman, G. Schull",
-      journal: "Nature Communications 15, 9733 (2024)",
-      toc: "",
-      journalLink: "https://www.nature.com/articles/s41467-024-54074-8",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2025,
+    title: "Electrically Driven Cascaded Photon Emission in a Single Molecule",
+    authors: "Katharina Kaiser, Anna Rosławska, Michelangelo Romeo, Tomáš Neuman, Guillaume Schull",
+    journal: "Physical Review X 15, 021072 (2025)",
+    journalLink: "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.021072",
+    doi: "10.1103/PhysRevX.15.021072",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2024,
-      title: "Exploring the Role of Excited States’ Degeneracy on Vibronic Coupling with Atomic-Scale Optics",
-      authors: "K. Vasilev, F. Canola, F. Scheurer, A. Boeglin, F. Lotthammer, F. Chérioux, T. Neuman, G. Schull",
-      journal: "ACS Nano 18, 28052 (2024)",
-      toc: "",
-      journalLink: "https://pubs.acs.org/journal/ancac3",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2024,
+    title: "Fluorescence from a single-molecule probe directly attached to a plasmonic STM tip",
+    authors: "Niklas Friedrich, Anna Rosławska, Xabier Arrieta, Katharina Kaiser, Michelangelo Romeo, Eric Le Moal, Fabrice Scheurer, Javier Aizpurua, Andrei G. Borisov, Tomáš Neuman, Guillaume Schull",
+    journal: "Nature Communications 15, 9733 (2024)",
+    journalLink: "https://www.nature.com/articles/s41467-024-53707-2",
+    doi: "10.1038/s41467-024-53707-2",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2024,
-      title: "Gating Single-Molecule Fluorescence with Electrons",
-      authors: "K. Kaiser, S. Jiang, M. Romeo, F. Scheurer, G. Schull, A. Rosławska",
-      journal: "Phys. Rev. Lett. 133, 156902 (2024)",
-      toc: "",
-      journalLink: "https://journals.aps.org/prl/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2024,
+    title: "Exploring the Role of Excited States’ Degeneracy on Vibronic Coupling with Atomic-Scale Optics",
+    authors: "Konstantin Vasilev, Francesca Canola, Fabrice Scheurer, Alex Boeglin, Felix Lotthammer, Franck Chérioux, Tomáš Neuman, Guillaume Schull",
+    journal: "ACS Nano 18, 28052–28061 (2024)",
+    journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.4c06994",
+    doi: "10.1021/acsnano.4c06994",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2024,
-      title: "Submolecular-scale control of phototautomerization",
-      authors: "A. Rosławska, K. Kaiser, M. Romeo, E. Devaux, F. Scheurer, S. Berciaud, T. Neuman, G. Schull",
-      journal: "Nature Nanotechnology 19, 738 (2024)",
-      toc: "",
-      journalLink: "https://www.nature.com/nnano/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2024,
+    title: "Gating Single-Molecule Fluorescence with Electrons",
+    authors: "Katharina Kaiser, Song Jiang, Michelangelo Romeo, Fabrice Scheurer, Guillaume Schull, Anna Rosławska",
+    journal: "Physical Review Letters 133, 156902 (2024)",
+    journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.156902",
+    doi: "10.1103/PhysRevLett.133.156902",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2023,
-      title: "Many-Body Description of STM-Induced Fluorescence of Charged Molecules",
-      authors: "S. Jiang, T. Neuman, R. Bretel, A. Boeglin, F. Scheurer, E. Le Moal, G. Schull",
-      journal: "Phys. Rev. Lett. 130, 126202 (2023)",
-      toc: "",
-      journalLink: "https://journals.aps.org/prl/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2024,
+    title: "Submolecular-scale control of phototautomerization",
+    authors: "Anna Rosławska, Katharina Kaiser, Michelangelo Romeo, Eloïse Devaux, Fabrice Scheurer, Stéphane Berciaud, Tomáš Neuman, Guillaume Schull",
+    journal: "Nature Nanotechnology 19, 738–743 (2024)",
+    journalLink: "https://www.nature.com/articles/s41565-024-01622-4",
+    doi: "10.1038/s41565-024-01622-4",
+    toc: "",
+    hal: "",
+    arxiv: "https://arxiv.org/abs/2305.13157",
+    zenodo: "https://doi.org/10.5281/zenodo.10547040"
+  },
 
-    {
-      year: 2023,
-      title: "Tip-induced excitonic luminescence nanoscopy of an atomically resolved van der Waals heterostructure",
-      authors: "L. E. P. López, A. Rosławska, F. Scheurer, S. Berciaud, G. Schull",
-      journal: "Nature Materials 22, 482 (2023)",
-      toc: "",
-      journalLink: "https://www.nature.com/nmat/",
-      doi: "10.1038/s41563-023-01494-4",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2023,
+    title: "Many-Body Description of STM-Induced Fluorescence of Charged Molecules",
+    authors: "Song Jiang, Tomáš Neuman, Rémi Bretel, Alex Boeglin, Fabrice Scheurer, Eric Le Moal, Guillaume Schull",
+    journal: "Physical Review Letters 130, 126202 (2023)",
+    journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.126202",
+    doi: "10.1103/PhysRevLett.130.126202",
+    toc: "",
+    hal: "",
+    arxiv: "https://arxiv.org/abs/2210.00126",
+    zenodo: ""
+  },
 
-    {
-      year: 2023,
-      title: "Topologically localized excitons in single graphene nanoribbons",
-      authors: "S. Jiang, T. Neuman, A. Boeglin, F. Scheurer, G. Schull",
-      journal: "Science 379, 1049 (2023)",
-      toc: "",
-      journalLink: "https://www.science.org/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2023,
+    title: "Tip-induced excitonic luminescence nanoscopy of an atomically resolved van der Waals heterostructure",
+    authors: "L. E. Parra López, Anna Rosławska, Fabrice Scheurer, Stéphane Berciaud, Guillaume Schull",
+    journal: "Nature Materials 22, 482–488 (2023)",
+    journalLink: "https://www.nature.com/articles/s41563-023-01516-0",
+    doi: "10.1038/s41563-023-01516-0",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2022,
-      title: "Internal Stark effect of single-molecule fluorescence",
-      authors: "K. Vasilev, B. Doppagne, T. Neuman, A. Rosławska, H. Bulou, A. Boeglin, F. Scheurer, G. Schull",
-      journal: "Nature Communications 13, 677 (2022)",
-      toc: "",
-      journalLink: "https://www.nature.com/ncomms/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2023,
+    title: "Topologically localized excitons in single graphene nanoribbons",
+    authors: "Song Jiang, Tomáš Neuman, Alex Boeglin, Fabrice Scheurer, Guillaume Schull",
+    journal: "Science 379, 1049–1054 (2023)",
+    journalLink: "https://www.science.org/doi/10.1126/science.abq6948",
+    doi: "10.1126/science.abq6948",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2022,
-      title: "Electroluminescence of monolayer WS2 in a scanning tunneling microscope",
-      authors: "R. J. Peña Román, D. Pommier, R. Bretel, L. E. P. Parra López, E. Lorchat, J. Chaste, A. Ouerghi, S. Le Moal, E. Boer-Duchemin, G. Dujardin, A. G. Borisov, L. F. Zagonel, G. Schull, S. Berciaud, E. Le Moal",
-      journal: "Phys. Rev. B 22, 9244 (2022)",
-      toc: "",
-      journalLink: "https://journals.aps.org/prb/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2022,
+    title: "Internal Stark effect of single-molecule fluorescence",
+    authors: "Konstantin Vasilev, Benjamin Doppagne, Tomáš Neuman, Anna Rosławska, Hervé Bulou, Alex Boeglin, Fabrice Scheurer, Guillaume Schull",
+    journal: "Nature Communications 13, 677 (2022)",
+    journalLink: "https://www.nature.com/articles/s41467-022-28225-0",
+    doi: "10.1038/s41467-022-28225-0",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2022,
-      title: "Tip-Induced and Electrical Control of the Photoluminescence Yield of Monolayer WS2",
-      authors: "R. J. Peña Román, R. Bretel, D. Pommier, L. E. P. Parra López, E. Lorchat, E. Boer-Duchemin, G. Dujardin, A. G. Borisov, L. F. Zagonel, G. Schull, S. Berciaud, E. Le Moal",
-      journal: "Nano Lett. 22, 9244 (2022)",
-      toc: "",
-      journalLink: "https://pubs.acs.org/journal/nalefd",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    },
+  {
+    year: 2022,
+    title: "Electroluminescence of monolayer WS2 in a scanning tunneling microscope: Effect of bias polarity on spectral and angular distribution of emitted light",
+    authors: "R. J. Peña Román, D. Pommier, R. Bretel, L. E. Parra López, E. Lorchat, J. Chaste, A. Ouerghi, S. Le Moal, E. Boer-Duchemin, G. Dujardin, A. G. Borisov, L. F. Zagonel, G. Schull, S. Berciaud, E. Le Moal",
+    journal: "Physical Review B 106, 165414 (2022)",
+    journalLink: "https://journals.aps.org/prb/",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
 
-    {
-      year: 2022,
-      title: "Mapping Lamb, Stark, and Purcell Effects at a Chromophore-Picocavity Junction with Hyper-Resolved Fluorescence Microscopy",
-      authors: "A. Rosławska, T. Neuman, B. Doppagne, A. G. Borisov, M. Romeo, F. Scheurer, J. Aizpurua, G. Schull",
-      journal: "Phys. Rev. X 12, 011012 (2022)",
-      toc: "",
-      journalLink: "https://journals.aps.org/prx/",
-      doi: "",
-      hal: "",
-      arxiv: ""
-    }
-     {
+  {
+    year: 2022,
+    title: "Mapping Lamb, Stark, and Purcell Effects at a Chromophore-Picocavity Junction with Hyper-Resolved Fluorescence Microscopy",
+    authors: "Anna Rosławska, Tomáš Neuman, Benjamin Doppagne, Andrei G. Borisov, Michelangelo Romeo, Fabrice Scheurer, Javier Aizpurua, Guillaume Schull",
+    journal: "Physical Review X 12, 011012 (2022)",
+    journalLink: "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.011012",
+    doi: "10.1103/PhysRevX.12.011012",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
     year: 2021,
     title: "Energy funnelling within multichromophore architectures monitored with subnanometre resolution",
-    authors: "S. Cao, A. Rosławska, B. Doppagne, M. Romeo, M. Féron, F. Chérioux, H. Bulou, F. Scheurer, G. Schull",
-    journal: "Nature Chemistry 13, 766 (2021)",
-    journalLink: "https://www.nature.com/articles/s41557-021-00697-z",
-    doi: "10.1038/s41557-021-00697-z"
+    authors: "S. Cao, Anna Rosławska, Benjamin Doppagne, Michelangelo Romeo, M. Féron, F. Chérioux, H. Bulou, F. Scheurer, Guillaume Schull",
+    journal: "Nature Chemistry 13, 766–770 (2021)",
+    journalLink: "https://www.nature.com/articles/s41557-021-00728-x",
+    doi: "10.1038/s41557-021-00728-x",
+    toc: "",
+    hal: "https://hal.science/hal-03221348",
+    arxiv: "",
+    zenodo: ""
   },
 
   {
     year: 2020,
     title: "Single-molecule tautomerization tracking through space- and time-resolved fluorescence spectroscopy",
-    authors: "B. Doppagne, T. Neuman, R. Soria-Martinez, L. E. Parra López, H. Bulou, M. Romeo, S. Berciaud, F. Scheurer, J. Aizpurua, G. Schull",
-    journal: "Nature Nanotechnology 15, 207 (2020)",
-    journalLink: "https://www.nature.com/articles/s41565-019-0620-x",
-    doi: "10.1038/s41565-019-0620-x"
+    authors: "Benjamin Doppagne, Tomáš Neuman, R. Soria-Martinez, L. E. Parra López, Hervé Bulou, Michelangelo Romeo, Stéphane Berciaud, Fabrice Scheurer, Javier Aizpurua, Guillaume Schull",
+    journal: "Nature Nanotechnology 15, 207–211 (2020)",
+    journalLink: "https://www.nature.com/articles/s41565-019-0618-4",
+    doi: "10.1038/s41565-019-0618-4",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
 
   {
     year: 2019,
     title: "Scanning Tunneling Microscope-Induced Excitonic Luminescence of a Two-Dimensional Semiconductor",
     authors: "D. Pommier, R. Bretel, L. E. Parra López, F. Fabre, A. Mayne, E. Boer-Duchemin, G. Dujardin, G. Schull, S. Berciaud, E. Le Moal",
-    journal: "Phys. Rev. Lett. 123, 027402 (2019)",
+    journal: "Physical Review Letters 123, 027402 (2019)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.027402",
-    doi: "10.1103/PhysRevLett.123.027402"
+    doi: "10.1103/PhysRevLett.123.027402",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
 
   {
     year: 2018,
     title: "Electrofluorochromism at the single-molecule level",
-    authors: "B. Doppagne, M. C. Chong, H. Bulou, A. Boeglin, F. Scheurer, G. Schull",
+    authors: "Benjamin Doppagne, Michael C. Chong, Hervé Bulou, Alex Boeglin, Fabrice Scheurer, Guillaume Schull",
     journal: "Science 361, 251–255 (2018)",
     journalLink: "https://www.science.org/doi/10.1126/science.aat1603",
-    doi: "10.1126/science.aat1603"
+    doi: "10.1126/science.aat1603",
+    toc: "",
+    hal: "",
+    arxiv: "https://arxiv.org/abs/1802.00764",
+    zenodo: ""
   },
+
   {
     year: 2018,
     title: "Fano Description of Single-Hydrocarbon Fluorescence Excited by a Scanning Tunneling Microscope",
-    authors: "J. Kröger, B. Doppagne, F. Scheurer, G. Schull",
+    authors: "Jörg Kröger, Benjamin Doppagne, Fabrice Scheurer, Guillaume Schull",
     journal: "Nano Letters 18, 3407–3413 (2018)",
     journalLink: "https://pubs.acs.org/doi/10.1021/acs.nanolett.8b00304",
-    doi: "10.1021/acs.nanolett.8b00304"
+    doi: "10.1021/acs.nanolett.8b00304",
+    toc: "",
+    hal: "",
+    arxiv: "https://arxiv.org/abs/1801.07143",
+    zenodo: ""
   },
+
   {
     year: 2018,
     title: "Bright Electroluminescence from Single Graphene Nanoribbon Junctions",
-    authors: "M. C. Chong, N. Afshar-Imani, F. Scheurer, C. Cardoso, A. Ferretti, D. Prezzi, G. Schull",
+    authors: "Michael C. Chong, Nasima Afshar-Imani, Fabrice Scheurer, Claudia Cardoso, Andrea Ferretti, Deborah Prezzi, Guillaume Schull",
     journal: "Nano Letters 18, 175–181 (2018)",
     journalLink: "https://pubs.acs.org/doi/10.1021/acs.nanolett.7b03797",
-    doi: "10.1021/acs.nanolett.7b03797"
+    doi: "10.1021/acs.nanolett.7b03797",
+    toc: "",
+    hal: "",
+    arxiv: "https://arxiv.org/abs/1802.10335",
+    zenodo: ""
   },
 
   {
     year: 2017,
     title: "Conductance and Electroluminescence from On-surface Synthesized Molecular Wires",
-    authors: "M. C. Chong, G. Schull",
-    journal: "Reference Module in Chemistry, Molecular Sciences and Chemical Engineering (2017)"
+    authors: "Michael C. Chong, Guillaume Schull",
+    journal: "Reference Module in Chemistry, Molecular Sciences and Chemical Engineering (2017)",
+    journalLink: "",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2017,
     title: "Imaging isodensity contours of molecular states with STM",
-    authors: "G. Reecht, B. W. Heinrich, H. Bulou, F. Scheurer, L. Limot, G. Schull",
+    authors: "G. Reecht, B. Heinrich, H. Bulou, F. Scheurer, L. Limot, G. Schull",
     journal: "New Journal of Physics 19, 113033 (2017)",
     journalLink: "https://iopscience.iop.org/article/10.1088/1367-2630/aa969a",
-    doi: "10.1088/1367-2630/aa969a"
+    doi: "10.1088/1367-2630/aa969a",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2017,
     title: "Le fil moléculaire qui éclaire comme une LED",
-    authors: "F. Scheurer, G. Schull",
-    journal: "La Recherche 552 (2017)"
+    authors: "Fabrice Scheurer, Guillaume Schull",
+    journal: "La Recherche 552 (2017)",
+    journalLink: "",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2017,
     title: "Vibronic Spectroscopy with Submolecular Resolution from STM-Induced Electroluminescence",
-    authors: "B. Doppagne, M. C. Chong, E. Lorchat, S. Berciaud, M. Romeo, H. Bulou, A. Boeglin, F. Scheurer, G. Schull",
-    journal: "Phys. Rev. Lett. 118, 127401 (2017)",
+    authors: "Benjamin Doppagne, Michael C. Chong, E. Lorchat, Stéphane Berciaud, Michelangelo Romeo, Hervé Bulou, Alex Boeglin, Fabrice Scheurer, Guillaume Schull",
+    journal: "Physical Review Letters 118, 127401 (2017)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.127401",
-    doi: "10.1103/PhysRevLett.118.127401"
+    doi: "10.1103/PhysRevLett.118.127401",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
 
   {
     year: 2016,
     title: "Ordinary and Hot Electroluminescence from Single-Molecule Devices: Controlling the Emission Color by Chemical Engineering",
-    authors: "M. C. Chong, L. Sosa-Vargas, H. Bulou, A. Boeglin, F. Scheurer, F. Mathevet, G. Schull",
+    authors: "Michael C. Chong, L. Sosa-Vargas, Hervé Bulou, Alex Boeglin, Fabrice Scheurer, F. Mathevet, Guillaume Schull",
     journal: "Nano Letters 16, 6480–6484 (2016)",
     journalLink: "https://pubs.acs.org/doi/10.1021/acs.nanolett.6b02997",
-    doi: "10.1021/acs.nanolett.6b02997"
+    doi: "10.1021/acs.nanolett.6b02997",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2016,
     title: "A close-up view of coupled molecules",
-    authors: "G. Schull",
-    journal: "Nature 531, 587 (2016)"
+    authors: "Guillaume Schull",
+    journal: "Nature 531, 587 (2016)",
+    journalLink: "https://www.nature.com/articles/531587a",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2016,
     title: "Launching plasmons with molecules",
-    authors: "G. Schull",
-    journal: "Nature Photonics 10, 208 (2016)"
+    authors: "Guillaume Schull",
+    journal: "Nature Photonics 10, 208 (2016)",
+    journalLink: "",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2016,
     title: "Single molecules as whispering galleries for electrons",
     authors: "G. Reecht, H. Bulou, G. Schull, F. Scheurer",
-    journal: "J. Phys. Condens. Matter 28, 165001 (2016)",
+    journal: "Journal of Physics: Condensed Matter 28, 165001 (2016)",
     journalLink: "https://iopscience.iop.org/article/10.1088/0953-8984/28/16/165001",
-    doi: "10.1088/0953-8984/28/16/165001"
+    doi: "10.1088/0953-8984/28/16/165001",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2016,
     title: "Narrow-Line Single-Molecule Transducer between Electronic Circuits and Surface Plasmons",
-    authors: "M. C. Chong, G. Reecht, H. Bulou, A. Boeglin, F. Scheurer, F. Mathevet, G. Schull",
-    journal: "Phys. Rev. Lett. 116, 036802 (2016)",
+    authors: "Michael C. Chong, G. Reecht, H. Bulou, A. Boeglin, F. Scheurer, F. Mathevet, Guillaume Schull",
+    journal: "Physical Review Letters 116, 036802 (2016)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.036802",
-    doi: "10.1103/PhysRevLett.116.036802"
+    doi: "10.1103/PhysRevLett.116.036802",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
 
   {
     year: 2015,
     title: "Pulling and Stretching a Molecular Wire to Tune its Conductance",
-    authors: "G. Reecht, H. Bulou, F. Scheurer, V. Speisser, F. Mathevet, C. González, Y. J. Dappe, G. Schull",
-    journal: "J. Phys. Chem. Lett. 6, 2987–2992 (2015)",
+    authors: "G. Reecht, H. Bulou, F. Scheurer, V. Speisser, F. Mathevet, C. Gonzalez, Y. J. Dappe, Guillaume Schull",
+    journal: "Journal of Physical Chemistry Letters 6, 2987–2992 (2015)",
     journalLink: "https://pubs.acs.org/doi/10.1021/acs.jpclett.5b01283",
-    doi: "10.1021/acs.jpclett.5b01283"
+    doi: "10.1021/acs.jpclett.5b01283",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
 
   {
     year: 2014,
     title: "Une diode électroluminescente à une molécule",
-    authors: "G. Schull, F. Scheurer, G. Reecht",
-    journal: "Photoniques 72, 42–46 (2014)"
+    authors: "Guillaume Schull, Fabrice Scheurer, Gaël Reecht",
+    journal: "Photoniques 72, 42–46 (2014)",
+    journalLink: "https://www.photoniques.com/",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2014,
-    title: "Emission de lumière sous la pointe d'un microscope à effet tunnel",
-    authors: "G. Schull, E. Boer-Duchemin, G. Comtet, G. Dujardin",
-    journal: "Reflets de la Physique 38, 4 (2014)"
+    title: "Emission de lumière sous la pointe d’un microscope à effet tunnel",
+    authors: "Guillaume Schull, E. Boer-Duchemin, G. Comtet, G. Dujardin",
+    journal: "Reflets de la Physique 38, 4 (2014)",
+    journalLink: "https://www.refletsdelaphysique.fr/",
+    doi: "",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2014,
     title: "Structure and dynamics of C60 molecules on Au(111)",
-    authors: "H. Shin, A. Schwarze, R. D. Diehl, K. Pussi, A. Colombier, E. Gaudry, J. Ledieu, G. M. McGuirk, L. N. Serkovic Loli, V. Fournée, L. L. Wang, G. Schull, R. Berndt",
-    journal: "Phys. Rev. B 89, 245428 (2014)",
+    authors: "Heekeun Shin, A. Schwarze, R. D. Diehl, K. Pussi, A. Colombier, E. Gaudry, J. Ledieu, G. M. McGuirk, L. N. Serkovic Loli, V. Fournee, L. L. Wang, Guillaume Schull, R. Berndt",
+    journal: "Physical Review B 89, 245428 (2014)",
     journalLink: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.245428",
-    doi: "10.1103/PhysRevB.89.245428"
+    doi: "10.1103/PhysRevB.89.245428",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2014,
     title: "Chemical control of electrical contact to sp2 carbon atoms",
-    authors: "T. Frederiksen, G. Foti, F. Scheurer, V. Speisser, G. Schull",
+    authors: "Thomas Frederiksen, G. Foti, Fabrice Scheurer, V. Speisser, Guillaume Schull",
     journal: "Nature Communications 5, 3659 (2014)",
     journalLink: "https://www.nature.com/articles/ncomms4659",
-    doi: "10.1038/ncomms4659"
+    doi: "10.1038/ncomms4659",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
+
   {
     year: 2014,
     title: "Electroluminescence of a Polythiophene Molecular Wire Suspended between a Metallic Surface and the Tip of a Scanning Tunneling Microscope",
-    authors: "G. Reecht, F. Scheurer, V. Speisser, Y. J. Dappe, F. Mathevet, G. Schull",
-    journal: "Phys. Rev. Lett. 112, 047403 (2014)",
+    authors: "Gaël Reecht, Fabrice Scheurer, Virginie Speisser, Yannick J. Dappe, Fabrice Mathevet, Guillaume Schull",
+    journal: "Physical Review Letters 112, 047403 (2014)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.047403",
-    doi: "10.1103/PhysRevLett.112.047403"
+    doi: "10.1103/PhysRevLett.112.047403",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
   },
-  ]
+
+  {
+    year: 2013,
+    title: "Magnetism of CoPd self-organized alloy clusters on Au(111)",
+    authors: "P. Ohresser, E. Otero, F. Wilhelm, A. Rogalev, C. Goyhenex, L. Joly, H. Bulou, M. Romeo, V. Speisser, J. Arabski, Guillaume Schull, Fabrice Scheurer",
+    journal: "Journal of Applied Physics 114, 223912 (2013)",
+    journalLink: "https://pubs.aip.org/jap/article/114/22/223912/353100",
+    doi: "10.1063/1.4846756",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
+    year: 2013,
+    title: "Oligothiophene nano-rings as electron resonators for whispering gallery modes",
+    authors: "G. Reecht, H. Bulou, F. Scheurer, V. Speisser, B. Carrière, F. Mathevet, Guillaume Schull",
+    journal: "Physical Review Letters 110, 056802 (2013)",
+    journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.056802",
+    doi: "10.1103/PhysRevLett.110.056802",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
+    year: 2011,
+    title: "Light emission from a double-decker molecule on a metal surface",
+    authors: "N. L. Schneider, F. Matino, Guillaume Schull, S. Gabutti, M. Mayor, R. Berndt",
+    journal: "Physical Review B 84, 153403 (2011)",
+    journalLink: "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.84.153403",
+    doi: "10.1103/PhysRevB.84.153403",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
+    year: 2011,
+    title: "Charge Injection through Single and Double Carbon Bonds",
+    authors: "Guillaume Schull, Yannick J. Dappe, César González, Hervé Bulou, Richard Berndt",
+    journal: "Nano Letters 11, 3142–3146 (2011)",
+    journalLink: "https://pubs.acs.org/doi/10.1021/nl201185y",
+    doi: "10.1021/nl201185y",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
+    year: 2011,
+    title: "Solution-growth kinetics and thermodynamics of nanoporous self-assembled molecular monolayers",
+    authors: "Amandine Bellec, Claire Arigoni, Guillaume Schull, Ludovic Douillard, Céline Fiorini-Debuisschert, Fabrice Mathevet, David Kreher, André-Jean Attias, Fabrice Charra",
+    journal: "The Journal of Chemical Physics 134, 124702 (2011)",
+    journalLink: "https://pubs.aip.org/jcp/article/134/12/124702/350171",
+    doi: "10.1063/1.3569132",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
+    year: 2011,
+    title: "Atomic-scale engineering of electrodes for single-molecule contacts",
+    authors: "Guillaume Schull, Thomas Frederiksen, A. Arnau, D. Sánchez-Portal, Richard Berndt",
+    journal: "Nature Nanotechnology 6, 23–27 (2011)",
+    journalLink: "https://www.nature.com/articles/nnano.2010.224",
+    doi: "10.1038/nnano.2010.224",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+  },
+
+  {
+    year: 2011,
+    title: "Electronic decoupling of a cyclophane from a metal surface",
+    authors: "F. Matino, Guillaume Schull, F. Köhler, S. Gabutti, M. Mayor, Richard Berndt",
+    journal: "Proceedings of the National Academy of Sciences 108, 961–966 (2011)",
+    journalLink: "https://www.pnas.org/doi/10.1073/pnas.1018427108",
+    doi: "10.1073/pnas.1018427108",
+    toc: "",
+    hal: "",
+    arxiv: "",
+    zenodo: ""
+   }
+
+]
 };
