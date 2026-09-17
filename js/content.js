@@ -96,11 +96,11 @@ publications: [
   {
     year: 2026,
     title: "Length-independent quantum transport through engineered band states",
-    authors: "S. Jiang, et al.",
+    authors: "S. Jiang, Fabrice Scheurer, Qiang Sun, Pascal Ruffieux, Xuelin Yao, Akimitsu Narita, Klaus Müllen, Roman Fasel, Thomas Frederiksen, Guillaume Schull",
     journal: "ACS Nano 20, 23929 (2026)",
-    toc: "assets/transport.png",
+    toc: "assets/Transport 1.png",
     journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
-    hal: "",
+    hal: "https://hal.science/hal-05744254v1/document",
     arxiv: "",
    zenodo: "https://zenodo.org/records/15688130"
   },
