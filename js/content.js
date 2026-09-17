@@ -207,7 +207,7 @@ const siteContent = {
     authors: "Song Jiang, Tomáš Neuman, Alex Boeglin, Fabrice Scheurer, Guillaume Schull",
     journal: "Science 379, 1049–1054 (2023)",
     journalLink: "https://www.science.org/doi/10.1126/science.abq6948",
-    toc: "",
+    toc: "assets/gnr.png",
     hal: "",
     arxiv: "",
     zenodo: ""
