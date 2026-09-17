@@ -770,8 +770,8 @@ footer {
 
 .hero-image {
   width: 100%;
-  max-width: 480px;
-  max-height: 330px;
+  max-width: 520px;
+  max-height: 4000px;
   object-fit: contain;
   display: block;
 }
