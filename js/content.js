@@ -147,7 +147,7 @@ const siteContent = {
     authors: "Konstantin Vasilev, Francesca Canola, Fabrice Scheurer, Alex Boeglin, Felix Lotthammer, Franck Chérioux, Tomáš Neuman, Guillaume Schull",
     journal: "ACS Nano 18, 28052–28061 (2024)",
     journalLink: "https://doi.org/10.1021/acsnano.4c07136",
-    toc: "",
+    toc: "assets/kiril2.png",
     hal: "",
     arxiv: "",
     zenodo: ""
