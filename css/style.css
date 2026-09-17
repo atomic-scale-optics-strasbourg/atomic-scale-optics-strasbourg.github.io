@@ -102,7 +102,7 @@ h3 {
 
 .hero {
   min-height: calc(100vh - 82px);
-  padding: 9vh 7vw 10vh;
+  padding: 6vh 7vw 10vh;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 6vw;
