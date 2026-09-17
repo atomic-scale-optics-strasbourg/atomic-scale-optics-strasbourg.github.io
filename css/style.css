@@ -441,7 +441,7 @@ h3 {
 /* ===== CONTACT ===== */
 
 .contact-section {
-  padding: 90px 7vw;
+  padding: 50px 7vw;
   background: var(--red);
   color: white;
   display: flex;
@@ -455,8 +455,8 @@ h3 {
 }
 
 .contact-section h2 {
-  font-size: 45px;
-  margin: 12px 0;
+  font-size: 38px;
+  margin: 8px 0;
 }
 
 .contact-section p:not(.eyebrow) {
