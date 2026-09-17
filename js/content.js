@@ -135,7 +135,7 @@ const siteContent = {
     authors: "Niklas Friedrich, Anna Rosławska, Xabier Arrieta, Katharina Kaiser, Michelangelo Romeo, Eric Le Moal, Fabrice Scheurer, Javier Aizpurua, Andrei G. Borisov, Tomáš Neuman, Guillaume Schull",
     journal: "Nature Communications 15, 9733 (2024)",
     journalLink: "https://www.nature.com/articles/s41467-024-53707-2",
-    toc: "",
+    toc: "assets/ptcdatip.png",
     hal: "",
     arxiv: "",
     zenodo: ""
