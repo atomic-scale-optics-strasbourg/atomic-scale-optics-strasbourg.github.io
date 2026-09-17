@@ -111,7 +111,7 @@ const siteContent = {
     authors: "Anna Rosławska, Katharina Kaiser, Sofia Canola, Song Jiang, Fabrice Scheurer, Javier Aizpurua, Tomáš Neuman, Guillaume Schull",
     journal: "Reviews of Modern Physics 98, 025007 (2026)",
     journalLink: "https://journals.aps.org/rmp/abstract/10.1103/pqvw-kv92",
-    toc: ""assets/rmp.png"",
+    toc: "assets/rmp.png",
     hal: "",
     arxiv: "",
     zenodo: ""
@@ -123,7 +123,7 @@ const siteContent = {
     authors: "Katharina Kaiser, Anna Rosławska, Michelangelo Romeo, Tomáš Neuman, Guillaume Schull",
     journal: "Physical Review X 15, 021072 (2025)",
     journalLink: "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.021072",
-    toc: "",
+    toc: "assets/cascade.png",
     hal: "",
     arxiv: "",
     zenodo: ""
