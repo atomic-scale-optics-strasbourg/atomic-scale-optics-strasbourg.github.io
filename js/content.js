@@ -92,7 +92,17 @@ const siteContent = {
   },
 
   // ---------- PUBLICATIONS ----------
-  publications: [
-    {year:2026, title:"Length-independent quantum transport through engineered band states", authors:"S. Jiang, et al.", journal:"ACS Nano", tags:["Quantum transport","STM","Molecular systems"], toc:"", doi:"10.1021/acsnano.6c08307", hal:""},
-  ]
+publications: [
+  {
+    year: 2026,
+    title: "Length-independent quantum transport through engineered band states",
+    authors: "S. Jiang, et al.",
+    journal: "ACS Nano 20, 23929 (2026)",
+    toc: "",
+    journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
+    doi: "10.1021/acsnano.6c08307",
+    hal: "",
+    arxiv: ""
+  },
+]
 };
