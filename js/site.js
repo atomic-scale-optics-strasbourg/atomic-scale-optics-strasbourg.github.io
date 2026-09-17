@@ -23,7 +23,33 @@ function renderTeam(){
 }
 
 function renderPublications(target,list){
-  target.innerHTML=list.map(p=>`<article class="pub-card"><div class="pub-year">${p.year}</div><div class="pub-main">${p.toc?`<img class="toc" src="${p.toc}" alt="Graphical TOC">`:`<div class="toc placeholder"><span>TOC</span></div>`}<div><div class="tags">${p.tags.map(t=>`<span>${t}</span>`).join("")}</div><h3>${p.title}</h3><p class="authors">${p.authors}</p><p class="journal">${p.journal}</p><div class="pub-links">${p.doi?`<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI ↗</a>`:""}${p.hal?`<a href="${p.hal}" target="_blank" rel="noopener">HAL ↗</a>`:""}</div></div></div></article>`).join("");
+  target.innerHTML=list.map(p=>`
+    <article class="pub-card">
+      <div class="pub-year">${p.year}</div>
+
+      <div class="pub-main">
+        ${p.toc
+          ? `<img class="toc" src="${p.toc}" alt="Graphical TOC">`
+          : `<div class="toc placeholder"><span>TOC</span></div>`
+        }
+
+        <div>
+          <h3>${p.title}</h3>
+
+          <p class="authors">${p.authors}</p>
+
+          <p class="journal">${p.journal}</p>
+
+          <div class="pub-links">
+            ${p.journalLink ? `<a href="${p.journalLink}" target="_blank" rel="noopener">Journal ↗</a>` : ""}
+            ${p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI ↗</a>` : ""}
+            ${p.hal ? `<a href="${p.hal}" target="_blank" rel="noopener">HAL ↗</a>` : ""}
+            ${p.arxiv ? `<a href="${p.arxiv}" target="_blank" rel="noopener">arXiv ↗</a>` : ""}
+          </div>
+        </div>
+      </div>
+    </article>
+  `).join("");
 }
 
 function newsCard(n){
