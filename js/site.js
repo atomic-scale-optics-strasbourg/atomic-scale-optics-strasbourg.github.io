@@ -45,6 +45,7 @@ function renderPublications(target,list){
             ${p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI ↗</a>` : ""}
             ${p.hal ? `<a href="${p.hal}" target="_blank" rel="noopener">HAL ↗</a>` : ""}
             ${p.arxiv ? `<a href="${p.arxiv}" target="_blank" rel="noopener">arXiv ↗</a>` : ""}
+            ${p.zenodo ? `<a href="${p.zenodo}" target="_blank" rel="noopener">Zenodo ↗</a>` : ""}
           </div>
         </div>
       </div>
