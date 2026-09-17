@@ -159,7 +159,7 @@ const siteContent = {
     authors: "Katharina Kaiser, Song Jiang, Michelangelo Romeo, Fabrice Scheurer, Guillaume Schull, Anna Rosławska",
     journal: "Physical Review Letters 133, 156902 (2024)",
     journalLink: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.156902",
-    toc: "",
+    toc: "assets/gating.png",
     hal: "",
     arxiv: "",
     zenodo: ""
@@ -171,7 +171,7 @@ const siteContent = {
     authors: "Anna Rosławska, Katharina Kaiser, Michelangelo Romeo, Eloïse Devaux, Fabrice Scheurer, Stéphane Berciaud, Tomáš Neuman, Guillaume Schull",
     journal: "Nature Nanotechnology 19, 738–743 (2024)",
     journalLink: "https://www.nature.com/articles/s41565-024-01622-4",
-    toc: "",
+    toc: "assets/phototo.png",
     hal: "",
     arxiv: "https://arxiv.org/abs/2305.13157",
     zenodo: "https://doi.org/10.5281/zenodo.10547040"
