@@ -773,5 +773,6 @@ footer {
   max-height: 4000px;
   object-fit: contain;
   display: block;
+  transform: translateY(20px);
 }
 }
