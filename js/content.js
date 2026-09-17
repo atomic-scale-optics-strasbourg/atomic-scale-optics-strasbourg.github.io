@@ -101,7 +101,8 @@ publications: [
     toc: "assets/transport.png",
     journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
     hal: "",
-    arxiv: ""
+    arxiv: "",
+   zenodo: "https://zenodo.org/records/15688130"
   },
 ]
 };
