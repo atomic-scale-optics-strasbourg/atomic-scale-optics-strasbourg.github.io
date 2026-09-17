@@ -111,7 +111,7 @@ const siteContent = {
     authors: "Anna Rosławska, Katharina Kaiser, Sofia Canola, Song Jiang, Fabrice Scheurer, Javier Aizpurua, Tomáš Neuman, Guillaume Schull",
     journal: "Reviews of Modern Physics 98, 025007 (2026)",
     journalLink: "https://journals.aps.org/rmp/abstract/10.1103/pqvw-kv92",
-    toc: "",
+    toc: ""assets/rmp.png"",
     hal: "",
     arxiv: "",
     zenodo: ""
