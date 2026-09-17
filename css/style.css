@@ -778,4 +778,11 @@ footer {
   object-fit: contain;
   display: block;
 }
+.person-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
 }
