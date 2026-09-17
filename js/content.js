@@ -98,7 +98,7 @@ publications: [
     title: "Length-independent quantum transport through engineered band states",
     authors: "S. Jiang, et al.",
     journal: "ACS Nano 20, 23929 (2026)",
-    toc: "",
+    toc: "transport.png",
     journalLink: "https://pubs.acs.org/doi/10.1021/acsnano.6c08307",
     hal: "",
     arxiv: ""
