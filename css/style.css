@@ -514,14 +514,18 @@ h3 {
 }
 
 .portrait {
-  height: 150px;
-  background: linear-gradient(145deg, #ecece8, #d9d9d4);
+  width: 100%;
+  background: #f0f0ed;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding: 14px;
-  font: 700 28px "Space Grotesk";
-  color: #888;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .person h3 {
