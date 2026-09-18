@@ -73,22 +73,22 @@ const siteContent = {
   people: {
     permanent: [
       {initials:"GS", name:"Guillaume Schull", role:"Research Director, CNRS", description:"STM · Molecular nanophysics · Light–matter interactions", photo:"assets/gs.png"},
-      {initials:"KK", name:"Katharina Kaiser", role:"Chaire de Professeur Junior, CNRS", description:"Scanning probe microscopy · Molecular photophysics", photo:"KK.png"},
-      {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Theory · Molecular and quantum materials", photo:"FS.png"},
-      {initials:"SJ", name:"Song Jiang", role:"Research Engineer, CNRS", description:"STM · Optical spectroscopy", photo:"SJ.png"}
+      {initials:"KK", name:"Katharina Kaiser", role:"Chaire de Professeur Junior, CNRS", description:"Scanning probe microscopy · Molecular photophysics", photo:"assets/KK.png"},
+      {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Theory · Molecular and quantum materials", photo:"assets/FS.png"},
+      {initials:"SJ", name:"Song Jiang", role:"Research Engineer, CNRS", description:"STM · Optical spectroscopy", photo:"assets/SJ.png"}
     ],
     technical: [
-      {initials:"VS", name:"Virginie Speisser", role:"Research Engineer, CNRS", description:"", photo:"VS.png"},
-      {initials:"MR", name:"Michelangelo Romeo", role:"Research Engineer, CNRS", description:"", photo:"MR.png"}
+      {initials:"VS", name:"Virginie Speisser", role:"Research Engineer, CNRS", description:"", photo:"assets/VS.png"},
+      {initials:"MR", name:"Michelangelo Romeo", role:"Research Engineer, CNRS", description:"", photo:"assets/MR.png"}
     ],
     postdocs: [
-      {initials:"FC", name:"Fabio Costa", role:"Postdoctoral researcher", description:"", photo:"FC.png"}
+      {initials:"FC", name:"Fabio Costa", role:"Postdoctoral researcher", description:"", photo:"assets/FC.png"}
     ],
     phd: [
-      {initials:"QS", name:"Quentin Stein", role:"PhD student", description:"", photo:"QS.png"},
-      {initials:"MB", name:"Manas Biswas", role:"PhD student", description:"", photo:"MB.png"},
-     {initials:"VF", name:"Victor Feitosa", role:"PhD student", description:"", photo:"VF.png"}, 
-     {initials:"MC", name:"Marc Chevaleyre", role:"PhD student", description:"", photo:"MC.png"}
+      {initials:"QS", name:"Quentin Stein", role:"PhD student", description:"", photo:"assets/QS.png"},
+      {initials:"MB", name:"Manas Biswas", role:"PhD student", description:"", photo:"assets/MB.png"},
+     {initials:"VF", name:"Victor Feitosa", role:"PhD student", description:"", photo:"assets/VF.png"}, 
+     {initials:"MC", name:"Marc Chevaleyre", role:"PhD student", description:"", photo:"assets/MC.png"}
     ]
   },
 
