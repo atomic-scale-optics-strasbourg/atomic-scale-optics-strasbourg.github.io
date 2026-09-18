@@ -73,9 +73,9 @@ const siteContent = {
   people: {
     permanent: [
       {initials:"GS", name:"Guillaume Schull", role:"Research Director, CNRS", description:"STM · Molecular nanophysics · Light–matter interactions", photo:"assets/gs.png"},
-      {initials:"KK", name:"Katharina Kaiser", role:"Chaire de Professeur Junior, CNRS", description:"Scanning probe microscopy · Molecular photophysics", photo:"assets/KK.png"},
-      {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Theory · Molecular and quantum materials", photo:"assets/FS.png"},
-     {initials:"SJ", name:"Song Jiang", role:"Research Engineer, CNRS", description:"STM · Optical spectroscopy", photo:"assets/SJ.png"}
+      {initials:"KK", name:"Katharina Kaiser", role:"Chaire de Professeur Junior, CNRS", description:"STM/AFM · Molecular photophysics", photo:"assets/KK.png"},
+      {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Synchrotron · Molecular optics and magnetism", photo:"assets/FS.png"},
+     {initials:"SJ", name:"Song Jiang", role:"Research Engineer, CNRS", description:"STM · Graphen NanoRibbons . Optical spectroscopy", photo:"assets/SJ.png"}
     ],
     technical: [
      
