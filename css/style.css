@@ -782,6 +782,21 @@ footer {
   object-fit: contain;
   display: block;
 }
+/* TEST TEAM PHOTOS */
+.person .portrait {
+  width: 140px !important;
+  height: 180px !important;
+  border: 1px solid #dededb !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  background: white !important;
+}
 
+.person .portrait img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block !important;
+}
 }
 }
