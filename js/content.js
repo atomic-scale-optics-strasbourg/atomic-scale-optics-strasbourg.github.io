@@ -58,8 +58,7 @@ const siteContent = {
 
   // ---------- PROJECTS ----------
   projects: [
-    {tag:"ERC ADVANCED", title:"AETHER", text:"Exploring light-induced phenomena with ultrafast and tunable optical excitation in cryogenic STM."},
-    {tag:"NATIONAL & EUROPEAN", title:"Quantum matter at the atomic scale", text:"From engineered molecular states to nanoscale quantum emitters and 2D materials."}
+    {tag:"ERC ADVANCED", title:"AETHER", text:"Exploring light-induced phenomena with ultrafast and tunable optical excitation in cryogenic STM."}
   ],
 
   // ---------- NEWS ----------
