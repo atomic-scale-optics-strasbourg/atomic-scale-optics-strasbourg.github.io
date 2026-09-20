@@ -15,11 +15,16 @@ function renderHome(){
   renderNavigation();
 }
 
-function personCard(p){return `<div class="person"><div class="portrait">${p.photo?`<img src="${p.photo}" alt="${p.name}">`:p.initials}</div><h3>${p.name}</h3><p>${p.role}</p>${p.description?`<small>${p.description}</small>`:""}</div>`}
-function renderTeam(){
-  const groups=[["Permanent researchers",siteContent.people.permanent,false],["Technical support",siteContent.people.technical,true],["Postdoctoral researcher",siteContent.people.postdocs,true],["PhD students",siteContent.people.phd,true]];
-  document.getElementById("team-content").innerHTML=groups.map(g=>`<h2 class="subheading">${g[0]}</h2><div class="people-grid ${g[2]?"compact":""}">${g[1].map(personCard).join("")}</div>`).join("");
-  renderNavigation("team");
+function personCard(p){
+  return `<div class="person">
+    <div class="portrait">${p.photo?`<img src="${p.photo}" alt="${p.name}">`:p.initials}</div>
+    <div class="person-name-row">
+      <h3>${p.name}</h3>
+      ${p.homepage?`<a class="person-homepage" href="${p.homepage}" target="_blank" rel="noopener">Homepage ↗</a>`:""}
+    </div>
+    <p>${p.role}</p>
+    ${p.description?`<small>${p.description}</small>`:""}
+  </div>`
 }
 
 function renderPublications(target,list){
