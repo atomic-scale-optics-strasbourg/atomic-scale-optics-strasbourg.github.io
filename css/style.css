@@ -101,7 +101,7 @@ h3 {
 /* ===== HERO ===== */
 
 .hero {
-  min-height: calc(90vh - 82px);
+  min-height: calc(100vh - 82px);
   padding: 4vh 7vw 10vh;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
