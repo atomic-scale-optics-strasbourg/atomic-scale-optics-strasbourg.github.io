@@ -73,21 +73,21 @@ const siteContent = {
     permanent: [
       {initials:"GS", name:"Guillaume Schull", role:"Research Director, CNRS", description:"STM · Molecular nanophysics · Light–matter interactions", photo:"assets/gs.png",homepage: "https://www.ipcms.fr/en/guillaume-schull/"},
       {initials:"KK", name:"Katharina Kaiser", role:"Chaire de Professeur Junior, CNRS", description:"STM/AFM · Molecular photophysics", photo:"assets/KK.png",homepage: "https://..."},
-      {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Synchrotron · Molecular optics and magnetism", photo:"assets/FS.png",homepage: "https://..."},
-     {initials:"SJ", name:"Song Jiang", role:"Research Engineer, CNRS", description:"STM · Graphen NanoRibbons . Optical spectroscopy", photo:"assets/SJ.png",homepage: "https://..."}
+      {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Synchrotron · Molecular optics and magnetism", photo:"assets/FS.png",homepage: "https://www.ipcms.fr/__trashed-2/"},
+     {initials:"SJ", name:"Song Jiang", role:"Research Engineer (IR), CNRS", description:"STM · Graphen NanoRibbons . Optical spectroscopy", photo:"assets/SJ.png",homepage: "https://..."}
     ],
     technical: [
      
-      {initials:"VS", name:"Virginie Speisser", role:"Research Engineer, CNRS", description:"", photo:"assets/VS.png",homepage: "https://..."},
-      {initials:"MR", name:"Michelangelo Romeo", role:"Research Engineer, CNRS", description:"", photo:"assets/MR.png",homepage: "https://..."}
+      {initials:"VS", name:"Virginie Speisser", role:"Research Engineer (IE), CNRS", description:"", photo:"assets/VS.png",homepage: "https://..."},
+      {initials:"MR", name:"Michelangelo Romeo", role:"Research Engineer (IR), CNRS", description:"", photo:"assets/MR.png",homepage: "https://www.ipcms.fr/en/michelangelo-romeo-2/"}
     ],
     postdocs: [
-      {initials:"FC", name:"Fabio Costa", role:"Postdoctoral researcher", description:"", photo:"assets/FC.png",homepage: "https://..."}
+      {initials:"FC", name:"Fabio Costa", role:"Postdoctoral researcher", description:"", photo:"assets/FC.png",homepage: "https://www.ipcms.fr/en/fabio-costa/"}
     ],
     phd: [
       {initials:"QS", name:"Quentin Stein", role:"PhD student", description:"", photo:"assets/QS.png",homepage: "https://..."},
-      {initials:"MB", name:"Manas Biswas", role:"PhD student", description:"", photo:"assets/MB.png",homepage: "https://..."},
-     {initials:"VF", name:"Victor Feitosa", role:"PhD student", description:"", photo:"assets/VF.png",homepage: "https://..."}, 
+      {initials:"MB", name:"Manas Biswas", role:"PhD student", description:"", photo:"assets/MB.png",homepage: "https://www.ipcms.fr/en/manas-pratim-biswas/"},
+     {initials:"VF", name:"Victor Feitosa", role:"PhD student", description:"", photo:"assets/VF.png",homepage: "https://www.ipcms.fr/en/victor-feitosa/"}, 
      {initials:"MC", name:"Marc Chevaleyre", role:"PhD student", description:"", photo:"assets/MC.png",homepage: "https://..."}
     ]
   },
