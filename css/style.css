@@ -472,7 +472,7 @@ h3 {
 /* ===== INNER PAGES ===== */
 
 .page-hero {
-  padding: 100px 7vw 80px;
+  padding: 55px 7vw 50px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -798,5 +798,4 @@ footer {
   object-fit: contain !important;
   display: block !important;
 }
-}
-}
+
