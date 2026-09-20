@@ -71,7 +71,7 @@ const siteContent = {
   // ---------- TEAM ----------
   people: {
     permanent: [
-      {initials:"GS", name:"Guillaume Schull", role:"Research Director, CNRS", description:"STM · Molecular nanophysics · Light–matter interactions", photo:"assets/gs.png",homepage: "https://..."},
+      {initials:"GS", name:"Guillaume Schull", role:"Research Director, CNRS", description:"STM · Molecular nanophysics · Light–matter interactions", photo:"assets/gs.png",homepage: "https://www.ipcms.fr/en/guillaume-schull/"},
       {initials:"KK", name:"Katharina Kaiser", role:"Chaire de Professeur Junior, CNRS", description:"STM/AFM · Molecular photophysics", photo:"assets/KK.png",homepage: "https://..."},
       {initials:"FS", name:"Fabrice Scheurer", role:"Researcher, CNRS", description:"Synchrotron · Molecular optics and magnetism", photo:"assets/FS.png",homepage: "https://..."},
      {initials:"SJ", name:"Song Jiang", role:"Research Engineer, CNRS", description:"STM · Graphen NanoRibbons . Optical spectroscopy", photo:"assets/SJ.png",homepage: "https://..."}
