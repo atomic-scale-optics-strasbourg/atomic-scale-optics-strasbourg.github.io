@@ -64,8 +64,9 @@ const siteContent = {
   // ---------- NEWS ----------
   // The first item is the newest one. Add new news at the top.
   news: [
-    {date:"2026-09-16", title:"Website launch", text:"The new Atomic-scale optics with STM website is online.", image:"", link:""},
-    {date:"2026-08-11", title:"New publication in ACS Nano", text:"Our work on length-independent quantum transport through engineered band states has been accepted for publication in ACS Nano.", image:"", link:"https://doi.org/10.1021/acsnano.6c08307"}
+   {date:"2026-10-01", title:"New PhD Student", text:"Marc Chevaleyre is joining us", image:"assets/MC.png", link:""},
+   {date:"2026-09-28", title:"LMI Workshop in Strasbourg (28th- 30th of September)", text:"Excited to see the whole community", image:"assets/LMI.png", link:""},
+   {date:"2026-08-11", title:"New publication in ACS Nano", text:"Our work on length-independent quantum transport through engineered band states has been accepted for publication in ACS Nano.", image:"assets/Transport 1.png", link:"https://doi.org/10.1021/acsnano.6c08307"}
   ],
 
   // ---------- TEAM ----------
