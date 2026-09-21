@@ -820,3 +820,7 @@ footer {
 .person-homepage:hover {
   color: var(--red);
 }
+/* Move Latest News upward on homepage */
+#news {
+  margin-top: -40px;
+}
