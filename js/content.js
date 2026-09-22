@@ -66,16 +66,15 @@ const siteContent = {
   // Add/remove/reorder setups here. Images go in assets/.
   setups: [
     {
-      title: "Cryogenic STM / STML",
-      subtitle: "Atomic-scale optical spectroscopy at low temperature",
-      image: "",
+      title: "LT-STM Unisoku",
+      subtitle: "STML/TEPL on 2D Materials",
+      image: "assets/unisoku.png",
       text: "A low-temperature ultrahigh-vacuum scanning tunneling microscope dedicated to atomic-scale studies of light–matter interactions. The setup combines scanning tunneling microscopy with optical spectroscopy and light emission at the single-molecule level.",
       specs: [
-        {label:"Temperature", value:"4.5 K"},
+        {label:"Temperature", value:"6 K"},
         {label:"Environment", value:"UHV"},
-        {label:"Techniques", value:"STM · STML · STM-LE · STM-EL"},
-        {label:"Optics", value:"High-resolution optical spectroscopy"}
-      ]
+        {label:"Techniques", value:"STM · STML · TEPL · STM-PLE"},
+        ]
     },
 
     {
