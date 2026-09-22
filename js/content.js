@@ -34,7 +34,8 @@ const siteContent = {
     {label: "Team", href: "team.html"},
     {label: "Publications", href: "publications.html"},
     {label: "Projects", href: "projects"},
-    {label: "Contact", href: "index.html#contact"}
+   {label: "Setups", href: "setups.html"}, 
+   {label: "Contact", href: "index.html#contact"}
   ],
 
   // ---------- HOMEPAGE SECTION TITLES ----------
