@@ -11,14 +11,24 @@
 <body>
 
 <header class="site-header">
-  <div class="site-nav"></div>
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="Atomic-scale optics with SPM logo">
+    <span>
+      <strong>Atomic-scale optics</strong>
+      <small>with SPM</small>
+    </span>
+  </a>
+
+  <nav class="site-nav"></nav>
 </header>
 
-<main class="page">
+<main>
 
   <section class="page-hero">
     <p class="eyebrow">Experimental platforms</p>
+
     <h1>Setups</h1>
+
     <p>
       Experimental platforms combining scanning probe microscopy,
       optical spectroscopy and ultrafast techniques to investigate
@@ -30,15 +40,9 @@
 
 </main>
 
-<footer class="site-footer">
-  <div class="site-footer-inner">
-    <div>
-      <strong>Atomic-scale optics</strong> with SPM
-    </div>
-    <div>
-      IPCMS · CNRS & Université de Strasbourg
-    </div>
-  </div>
+<footer>
+  <span>© Atomic-scale optics with SPM</span>
+  <span>IPCMS · CNRS · Université de Strasbourg</span>
 </footer>
 
 <script src="js/content.js"></script>
@@ -46,7 +50,9 @@
 
 <script>
 
-    const setupsContainer = document.getElementById("setups-list");
+  renderNavigation("setups");
+
+  const setupsContainer = document.getElementById("setups-list");
 
   siteContent.setups.forEach((setup, index) => {
 
@@ -79,9 +85,7 @@
           ${setup.subtitle}
         </p>
 
-        <h2>
-          ${setup.title}
-        </h2>
+        <h2>${setup.title}</h2>
 
         <p class="setup-text">
           ${setup.text}
