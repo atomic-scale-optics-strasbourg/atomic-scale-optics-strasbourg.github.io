@@ -1,4 +1,3 @@
-
 function renderNavigation(active="") {
   document.querySelector(".site-nav").innerHTML = siteContent.navigation.map(n => `<a class="${active && n.label.toLowerCase()===active ? "active":""}" href="${n.href}">${n.label}</a>`).join("");
 }
