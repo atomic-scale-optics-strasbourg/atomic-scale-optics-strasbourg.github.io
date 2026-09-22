@@ -33,32 +33,38 @@ a {
 
 .site-header {
   height: 82px;
-  display: flex;
+  width: 100%;
+  display: flex !important;
   align-items: center;
   justify-content: space-between;
   padding: 0 5vw;
   border-bottom: 1px solid var(--line);
-  background: rgba(247, 247, 245, 0.92);
+  background: rgba(247, 247, 245, 0.96);
   backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .brand {
-  display: flex;
+  display: flex !important;
   align-items: center;
   gap: 12px;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .brand img {
   width: 48px;
   height: 48px;
   object-fit: contain;
+  display: block;
 }
 
 .brand span {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", Arial, sans-serif;
   line-height: 1;
 }
 
@@ -75,10 +81,19 @@ a {
 }
 
 .site-header nav {
-  display: flex;
+  display: flex !important;
+  align-items: center;
   gap: 28px;
   font-size: 14px;
   font-weight: 500;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.site-header nav a {
+  display: inline-block;
+  color: var(--ink);
+  text-decoration: none;
 }
 
 .site-header nav a:hover,
