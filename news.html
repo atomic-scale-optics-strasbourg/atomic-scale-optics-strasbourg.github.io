@@ -16,13 +16,14 @@
 
   <a class="brand" href="index.html">
     <img src="assets/logo.png" alt="Atomic-scale optics with SPM logo">
+
     <span>
       <strong>Atomic-scale optics</strong>
       <small>with SPM</small>
     </span>
   </a>
 
-  <nav id="main-navigation"></nav>
+  <nav class="site-nav"></nav>
 
 </header>
 
@@ -30,6 +31,7 @@
 <main>
 
   <!-- PAGE HERO / BANDEAU -->
+
   <section class="page-hero">
 
     <p class="eyebrow">Atomic-scale optics</p>
@@ -44,6 +46,7 @@
 
 
   <!-- NEWS -->
+
   <section class="section">
 
     <div id="news-list" class="news-grid"></div>
@@ -54,8 +57,13 @@
 
 
 <footer>
+
   <span>© Atomic-scale optics with SPM</span>
-  <span>IPCMS · CNRS · Université de Strasbourg</span>
+
+  <span>
+    IPCMS · CNRS · Université de Strasbourg
+  </span>
+
 </footer>
 
 
@@ -63,15 +71,21 @@
 <script src="js/site.js"></script>
 
 <script>
+
+  // Navigation
+
   renderNavigation("news");
+
+
+  // News
 
   const newsList = document.getElementById("news-list");
 
   if (newsList && siteContent.news) {
-    newsList.innerHTML = siteContent.news.map(newsCard).join("");
+    renderNews(newsList, siteContent.news);
   }
+
 </script>
 
 </body>
 </html>
-
