@@ -1,4 +1,81 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News — Atomic-scale optics with SPM</title><link rel="stylesheet" href="css/style.css"></head><body>
-<header class="site-header"><a class="brand" href="index.html"><img src="assets/logo.png" alt="Atomic-scale optics with SPM logo"><span><strong>Atomic-scale optics</strong><small>with SPM</small></span></a><nav class="site-nav"></nav></header>
-<main><section class="page-hero"><p class="eyebrow">Atomic-scale optics with SPM</p><h1>News</h1><p>Latest news, publications, arrivals, awards, talks and other updates from the team.</p></section><section class="section"><div id="news-list" class="news-grid"></div></section></main>
-<footer><span>© Atomic-scale optics with SPM</span><span>IPCMS · CNRS · Université de Strasbourg</span></footer><script src="js/content.js"></script><script src="js/site.js"></script><script>renderNews(document.getElementById('news-list'))</script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>News — Atomic-scale optics with SPM</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="Atomic-scale optics with SPM logo">
+    <span>
+      <strong>Atomic-scale optics</strong>
+      <small>with SPM</small>
+    </span>
+  </a>
+
+  <nav id="main-navigation"></nav>
+
+</header>
+
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+
+      <p class="eyebrow">Atomic-scale optics</p>
+
+      <h1>News</h1>
+
+      <p class="lead">
+        Latest news, publications, awards and activities from the team.
+      </p>
+
+    </div>
+  </section>
+
+
+  <section class="content-section">
+
+    <div class="container">
+
+      <div id="news-list" class="news-list"></div>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+  <span>© Atomic-scale optics with SPM</span>
+  <span>IPCMS · CNRS · Université de Strasbourg</span>
+</footer>
+
+
+<script src="js/content.js"></script>
+<script src="js/site.js"></script>
+
+<script>
+  renderNavigation("news");
+
+  const newsList = document.getElementById("news-list");
+
+  if (newsList && siteContent.news) {
+    newsList.innerHTML = siteContent.news.map(newsCard).join("");
+  }
+</script>
+
+</body>
+</html>
+
