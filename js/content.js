@@ -22,8 +22,8 @@ const siteContent = {
   siteSubtitle: "with SPM",
   institution: "IPCMS · CNRS & Université de Strasbourg",
   heroTitle: "Light–matter interactions",
-  heroTitleAccent: "at the atomic scale.",
-  heroText: "Imaging, controlling and understanding quantum phenomena with light and scanning probe microscopy",
+  heroTitleAccent: "at the atomic scale",
+  heroText: "Imaging, controlling and understanding quantum phenomena with light and scanning probe microscopy.",
   contactEmail: "guillaume.schull@ipcms.fr",
   contactText: "IPCMS — CNRS & Université de Strasbourg\nCampus de Cronenbourg, Strasbourg, France",
 
