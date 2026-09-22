@@ -73,46 +73,43 @@ const siteContent = {
       specs: [
         {label:"Temperature", value:"6 K"},
         {label:"Environment", value:"UHV"},
-        {label:"Techniques", value:"STM · STML · TEPL · STM-PLE"},
+        {label:"Techniques", value:"STML · TEPL · STM-PLE"},
         ]
     },
 
     {
-      title: "Cryogenic AFM / optical spectroscopy",
-      subtitle: "Correlative scanning probe microscopy and optical spectroscopy",
+      title: "LT-STM/AFM Createc",
+      subtitle: "TEPL on thick insulating layer & Time-resolved TEPL",
       image: "",
-      text: "A cryogenic atomic force microscope coupled to optical spectroscopy for the investigation of nanoscale optical and electronic properties of molecular and low-dimensional materials.",
+      text: "A cryogenic STM/AFM coupled to CW and pulsed optical laser sources for the investigation of nanoscale optical properties of molecular and low-dimensional materials.",
       specs: [
-        {label:"Temperature", value:"4–5 K"},
-        {label:"Environment", value:"Cryogenic"},
-        {label:"Techniques", value:"AFM · PL · Raman · TEPL · TERS"},
-        {label:"Optics", value:"Nanoscale optical spectroscopy"}
-      ]
-    },
-
-    {
-      title: "Time-resolved optical spectroscopy",
-      subtitle: "Ultrafast optical spectroscopy at the nanoscale",
-      image: "",
-      text: "An ultrafast optical setup designed to probe the dynamics of light–matter interactions on femtosecond and picosecond timescales, with a focus on nanoscale and low-temperature systems.",
-      specs: [
-        {label:"Temperature", value:"Cryogenic"},
-        {label:"Excitation", value:"Femtosecond laser"},
-        {label:"Techniques", value:"Time-resolved spectroscopy"},
-        {label:"Time resolution", value:"Ultrafast"}
-      ]
-    },
-
-    {
-      title: "UHV molecular deposition / preparation",
-      subtitle: "Controlled preparation of molecular and low-dimensional materials",
-      image: "",
-      text: "An ultrahigh-vacuum preparation environment for the controlled deposition and preparation of molecular systems and low-dimensional materials prior to scanning probe microscopy and optical measurements.",
-      specs: [
+        {label:"Temperature", value:"5 K"},
         {label:"Environment", value:"UHV"},
-        {label:"Preparation", value:"In-situ deposition"},
-        {label:"Materials", value:"Molecules · 2D materials"},
-        {label:"Integration", value:"STM · AFM · Optical spectroscopy"}
+        {label:"Techniques", value:"STML . AFM-PL · TR-TEPL . STM-PLE"}
+      ]
+    },
+
+    {
+      title: "LT-STM Omicron",
+      subtitle: "STML/TEPL/TERS plateform",
+      image: "",
+      text: "An cryogenic STM setup designed as a plateform to probe the fluorescence and Raman properties of individial molecules. Open to collaboration.",
+      specs: [
+        {label:"Temperature", value:"5K"},
+        {label:"Environment", value:"UHV"},
+        {label:"Techniques", value:"STML . TEPL · TERS . STM-PLE"}
+      ]
+    },
+
+    {
+      title: "Home-made Liquid STM",
+      subtitle: "Stuying molecular self-assembly at the liquid-solid interface - forming students",
+      image: "",
+      text: "A liquid-solid interface STM designed to study the 2D self-assembly of organic molecules. Perfectly adapted to the formation of students to STM on molecules.",
+      specs: [
+        {label:"Temperature", value:"300K"},
+        {label:"Environment", value:"Liquid"},
+        {label:"Techniques", value:"STM"}
       ]
     }
   ],
