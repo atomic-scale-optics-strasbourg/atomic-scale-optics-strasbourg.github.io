@@ -61,6 +61,62 @@ const siteContent = {
     {tag:"ERC ADVANCED", title:"AETHER", text:"Exploring light-induced phenomena with ultrafast and tunable optical excitation in cryogenic STM."}
   ],
 
+   // ---------- SETUPS ----------
+  // Add/remove/reorder setups here. Images go in assets/.
+  setups: [
+    {
+      title: "Cryogenic STM / STML",
+      subtitle: "Atomic-scale optical spectroscopy at low temperature",
+      image: "",
+      text: "A low-temperature ultrahigh-vacuum scanning tunneling microscope dedicated to atomic-scale studies of light–matter interactions. The setup combines scanning tunneling microscopy with optical spectroscopy and light emission at the single-molecule level.",
+      specs: [
+        {label:"Temperature", value:"4.5 K"},
+        {label:"Environment", value:"UHV"},
+        {label:"Techniques", value:"STM · STML · STM-LE · STM-EL"},
+        {label:"Optics", value:"High-resolution optical spectroscopy"}
+      ]
+    },
+
+    {
+      title: "Cryogenic AFM / optical spectroscopy",
+      subtitle: "Correlative scanning probe microscopy and optical spectroscopy",
+      image: "",
+      text: "A cryogenic atomic force microscope coupled to optical spectroscopy for the investigation of nanoscale optical and electronic properties of molecular and low-dimensional materials.",
+      specs: [
+        {label:"Temperature", value:"4–5 K"},
+        {label:"Environment", value:"Cryogenic"},
+        {label:"Techniques", value:"AFM · PL · Raman · TEPL · TERS"},
+        {label:"Optics", value:"Nanoscale optical spectroscopy"}
+      ]
+    },
+
+    {
+      title: "Time-resolved optical spectroscopy",
+      subtitle: "Ultrafast optical spectroscopy at the nanoscale",
+      image: "",
+      text: "An ultrafast optical setup designed to probe the dynamics of light–matter interactions on femtosecond and picosecond timescales, with a focus on nanoscale and low-temperature systems.",
+      specs: [
+        {label:"Temperature", value:"Cryogenic"},
+        {label:"Excitation", value:"Femtosecond laser"},
+        {label:"Techniques", value:"Time-resolved spectroscopy"},
+        {label:"Time resolution", value:"Ultrafast"}
+      ]
+    },
+
+    {
+      title: "UHV molecular deposition / preparation",
+      subtitle: "Controlled preparation of molecular and low-dimensional materials",
+      image: "",
+      text: "An ultrahigh-vacuum preparation environment for the controlled deposition and preparation of molecular systems and low-dimensional materials prior to scanning probe microscopy and optical measurements.",
+      specs: [
+        {label:"Environment", value:"UHV"},
+        {label:"Preparation", value:"In-situ deposition"},
+        {label:"Materials", value:"Molecules · 2D materials"},
+        {label:"Integration", value:"STM · AFM · Optical spectroscopy"}
+      ]
+    }
+  ],
+ 
   // ---------- NEWS ----------
   // The first item is the newest one. Add new news at the top.
   news: [
