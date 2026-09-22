@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Setups — Atomic-scale optics with SPM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="site-nav"></div>
+</header>
+
+<main class="page">
+
+  <section class="page-hero">
+    <p class="eyebrow">Experimental platforms</p>
+    <h1>Setups</h1>
+    <p>
+      Experimental platforms combining scanning probe microscopy,
+      optical spectroscopy and ultrafast techniques to investigate
+      light–matter interactions at the atomic scale.
+    </p>
+  </section>
+
+  <section id="setups-list" class="setups-list"></section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <strong>Atomic-scale optics</strong> with SPM
+    </div>
+    <div>
+      IPCMS · CNRS & Université de Strasbourg
+    </div>
+  </div>
+</footer>
+
+<script src="js/content.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+
+  renderNavigation("setups");
+
+  const setupsContainer = document.getElementById("setups-list");
+
+  siteContent.setups.forEach((setup, index) => {
+
+    const article = document.createElement("article");
+    article.className = "setup-item";
+
+    const imageHTML = setup.image
+      ? `<img src="${setup.image}" alt="${setup.title}">`
+      : `<div class="setup-placeholder"></div>`;
+
+    const specsHTML = setup.specs.map(spec => `
+      <div class="setup-spec">
+        <span>${spec.label}</span>
+        <strong>${spec.value}</strong>
+      </div>
+    `).join("");
+
+    article.innerHTML = `
+      <div class="setup-image">
+        ${imageHTML}
+      </div>
+
+      <div class="setup-content">
+
+        <div class="setup-number">
+          ${String(index + 1).padStart(2, "0")}
+        </div>
+
+        <p class="setup-subtitle">
+          ${setup.subtitle}
+        </p>
+
+        <h2>
+          ${setup.title}
+        </h2>
+
+        <p class="setup-text">
+          ${setup.text}
+        </p>
+
+        <div class="setup-specs">
+          ${specsHTML}
+        </div>
+
+      </div>
+    `;
+
+    setupsContainer.appendChild(article);
+
+  });
+
+</script>
+
+</body>
+</html>
