@@ -72,8 +72,54 @@ function formatDate(d){
   return x.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
 }
 
-function renderNews(target,list=siteContent.news){
-  target.innerHTML=list.map(newsCard).join("");
-  renderNavigation("news");
-}
+function renderSetups(target){
 
+  target.innerHTML = siteContent.setups.map((setup,index) => {
+
+    const imageHTML = setup.image
+      ? `<img src="${setup.image}" alt="${setup.title}">`
+      : `<div class="setup-placeholder"></div>`;
+
+    const specsHTML = setup.specs.map(spec => `
+      <div class="setup-spec">
+        <span>${spec.label}</span>
+        <strong>${spec.value}</strong>
+      </div>
+    `).join("");
+
+    return `
+      <article class="setup-item">
+
+        <div class="setup-image">
+          ${imageHTML}
+        </div>
+
+        <div class="setup-content">
+
+          <div class="setup-number">
+            ${String(index + 1).padStart(2,"0")}
+          </div>
+
+          <p class="setup-subtitle">
+            ${setup.subtitle}
+          </p>
+
+          <h2>${setup.title}</h2>
+
+          <p class="setup-text">
+            ${setup.text}
+          </p>
+
+          <div class="setup-specs">
+            ${specsHTML}
+          </div>
+
+        </div>
+
+      </article>
+    `;
+
+  }).join("");
+
+  renderNavigation("setups");
+}
