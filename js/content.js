@@ -92,7 +92,7 @@ const siteContent = {
     {
       title: "LT-STM Omicron",
       subtitle: "STML/TEPL/TERS plateform",
-      image: "",
+      image: "assets/omicron.png",
       text: "An cryogenic STM setup designed as a plateform to probe the fluorescence and Raman properties of individial molecules. Open to collaboration.",
       specs: [
         {label:"Temperature", value:"5K"},
@@ -104,7 +104,7 @@ const siteContent = {
     {
       title: "Home-made Liquid STM",
       subtitle: "Stuying molecular self-assembly at the liquid-solid interface - forming students",
-      image: "",
+      image: "assets/liquid.png",
       text: "A liquid-solid interface STM designed to study the 2D self-assembly of organic molecules. Perfectly adapted to the formation of students to STM on molecules.",
       specs: [
         {label:"Temperature", value:"300K"},
