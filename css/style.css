@@ -1001,23 +1001,5 @@ footer {
     grid-template-columns: 105px 1fr;
     gap: 12px;
   }
-/* ===== RECRUITMENT NOTE ===== */
 
-.recruitment-note {
-  margin-top: 26px;
-  font-size: 13px;
-  line-height: 1.5;
-  color: var(--muted);
-  max-width: 520px;
-}
-
-.recruitment-note a {
-  color: var(--red);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.recruitment-note a:hover {
-  text-decoration: underline;
-}
 }
