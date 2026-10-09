@@ -167,7 +167,7 @@ const siteContent = {
     journal: "Reviews of Modern Physics 98, 025007 (2026)",
     journalLink: "https://journals.aps.org/rmp/abstract/10.1103/pqvw-kv92",
     toc: "assets/rmp.png",
-    hal: "",
+    hal: "https://hal.science/hal-05744273v1",
     arxiv: "",
     zenodo: ""
   },
