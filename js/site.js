@@ -93,7 +93,8 @@ function renderTeam(){
     ["Permanent researchers", siteContent.people.permanent, false],
     ["Technical support", siteContent.people.technical, true],
     ["Postdoctoral researcher", siteContent.people.postdocs, true],
-    ["PhD students", siteContent.people.phd, true]
+    ["PhD students", siteContent.people.phd, true],
+    ["Master", siteContent.people.master, true]
   ];
 
   document.getElementById("team-content").innerHTML =
