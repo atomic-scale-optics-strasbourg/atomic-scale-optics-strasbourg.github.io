@@ -143,6 +143,9 @@ const siteContent = {
       {initials:"MB", name:"Manas Biswas", role:"PhD student", description:"", photo:"assets/MB.png",homepage: "https://www.ipcms.fr/en/manas-pratim-biswas/"},
      {initials:"VF", name:"Victor Feitosa", role:"PhD student", description:"", photo:"assets/VF.png",homepage: "https://www.ipcms.fr/en/victor-feitosa/"}, 
      {initials:"MC", name:"Marc Chevaleyre", role:"PhD student", description:"", photo:"assets/MC.png",homepage: ""}
+    ],
+    Master student: [
+      {initials:"EN", name:"Elisabeth Barbara Nitz", role:"Master student", description:"", photo:"assets/EN.png",homepage: ""}
     ]
   },
 
