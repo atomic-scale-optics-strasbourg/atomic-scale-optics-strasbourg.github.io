@@ -145,7 +145,7 @@ const siteContent = {
      {initials:"MC", name:"Marc Chevaleyre", role:"PhD student", description:"", photo:"assets/MC.png",homepage: ""}
     ],
     Master: [
-      {initials:"EN", name:"Elisabeth Barbara Nitz", role:"Master student", description:"", photo:"assets/EN.jpg",homepage: ""}
+      {initials:"EN", name:"Elisabeth Barbara Nitz", role:"Master student", description:"", photo:"assets/EN.png",homepage: ""}
     ],
   },
 
