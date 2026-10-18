@@ -144,7 +144,7 @@ const siteContent = {
      {initials:"VF", name:"Victor Feitosa", role:"PhD student", description:"", photo:"assets/VF.png",homepage: "https://www.ipcms.fr/en/victor-feitosa/"}, 
      {initials:"MC", name:"Marc Chevaleyre", role:"PhD student", description:"", photo:"assets/MC.png",homepage: ""}
     ],
-    Master: [
+    master: [
       {initials:"EN", name:"Elisabeth Barbara Nitz", role:"Master student", description:"", photo:"assets/EN.png",homepage: ""}
     ],
   },
