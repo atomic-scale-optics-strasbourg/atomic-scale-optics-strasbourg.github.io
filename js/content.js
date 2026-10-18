@@ -146,7 +146,7 @@ const siteContent = {
     ],
     Master student: [
       {initials:"EN", name:"Elisabeth Barbara Nitz", role:"Master student", description:"", photo:"assets/EN.jpg",homepage: ""}
-    ]
+    ],
   },
 
   publications: [
