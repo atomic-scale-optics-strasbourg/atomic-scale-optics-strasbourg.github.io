@@ -88,16 +88,42 @@ function personCard(p){
 }
 
 
+
 function renderTeam(){
+  const permanent = siteContent.people.permanent;
+
+  const songJiang = permanent.find(p =>
+    p.name.trim().toLowerCase() === "song jiang"
+  );
+
+  const researchers = permanent.filter(p =>
+    p.name.trim().toLowerCase() !== "song jiang"
+  );
+
   const groups = [
-    ["Permanent researchers", siteContent.people.permanent, false],
     ["Technical support", siteContent.people.technical, true],
     ["Postdoctoral researcher", siteContent.people.postdocs, true],
     ["PhD students", siteContent.people.phd, true],
     ["Master", siteContent.people.master, true]
   ];
 
+  const permanentHTML = `
+    <div class="people-grid permanent-grid">
+      <div class="people-group-heading researchers-heading">
+        <h2 class="subheading">Permanent researchers</h2>
+      </div>
+
+      <div class="people-group-heading platform-heading">
+        <h2 class="subheading">STM Platform Manager</h2>
+      </div>
+
+      ${researchers.map(personCard).join("")}
+      ${songJiang ? personCard(songJiang) : ""}
+    </div>
+  `;
+
   document.getElementById("team-content").innerHTML =
+    permanentHTML +
     groups.map(g =>
       `<h2 class="subheading">${g[0]}</h2>
        <div class="people-grid ${g[2] ? "compact" : ""}">
