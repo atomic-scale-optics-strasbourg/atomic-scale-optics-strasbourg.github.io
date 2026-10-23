@@ -108,17 +108,20 @@ function renderTeam(){
   ];
 
   const permanentHTML = `
-    <div class="people-grid permanent-grid">
-      <div class="people-group-heading researchers-heading">
+    <div class="permanent-layout">
+      <div class="researchers-group">
         <h2 class="subheading">Permanent researchers</h2>
+        <div class="people-grid">
+          ${researchers.map(personCard).join("")}
+        </div>
       </div>
 
-      <div class="people-group-heading platform-heading">
+      <div class="platform-group">
         <h2 class="subheading">STM Platform Manager</h2>
+        <div class="people-grid">
+          ${songJiang ? personCard(songJiang) : ""}
+        </div>
       </div>
-
-      ${researchers.map(personCard).join("")}
-      ${songJiang ? personCard(songJiang) : ""}
     </div>
   `;
 
@@ -133,7 +136,6 @@ function renderTeam(){
 
   renderNavigation("team");
 }
-
 
 function renderPublications(target,list){
   target.innerHTML = list.map((p,i) => `
