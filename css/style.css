@@ -1003,51 +1003,40 @@ footer {
     gap: 12px;
   }
 
-/* Permanent researchers and STM platform manager */
-.permanent-grid {
+.permanent-layout {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  column-gap: 24px;
-  row-gap: 0;
+  grid-template-columns: 3fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-bottom: 36px;
 }
 
-.permanent-grid .people-group-heading {
-  grid-row: 1;
+.permanent-layout .subheading {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
-.permanent-grid .researchers-heading {
-  grid-column: 1 / span 3;
+.permanent-layout .people-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
 }
 
-.permanent-grid .platform-heading {
-  grid-column: 4;
-}
-
-.permanent-grid .people-group-heading .subheading {
-  margin-top: 0;
-}
-
-.permanent-grid > .person {
-  grid-row: 2;
+.permanent-layout .platform-group .people-grid {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 @media (max-width: 700px) {
-  .permanent-grid {
+  .permanent-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .permanent-layout .people-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .permanent-grid .researchers-heading {
-    grid-column: 1;
-  }
-
-  .permanent-grid .platform-heading {
-    grid-column: 2;
-  }
-
-  .permanent-grid > .person {
-    grid-row: auto;
+  .permanent-layout .platform-group .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 }
