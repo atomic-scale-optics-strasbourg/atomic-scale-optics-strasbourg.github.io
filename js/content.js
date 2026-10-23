@@ -132,7 +132,7 @@ const siteContent = {
     ],
     technical: [
      
-      {initials:"VS", name:"Virginie Speisser", role:"Research Engineer (IE), CNRS", description:"", photo:"assets/VS.png",homepage: ""},
+      {initials:"VS", name:"Virginie Speisser", role:"Engineer (IE), CNRS", description:"", photo:"assets/VS.png",homepage: ""},
       {initials:"MR", name:"Michelangelo Romeo", role:"Research Engineer (IR), CNRS", description:"", photo:"assets/MR.png",homepage: "https://www.ipcms.fr/en/michelangelo-romeo-2/"}
     ],
     postdocs: [
