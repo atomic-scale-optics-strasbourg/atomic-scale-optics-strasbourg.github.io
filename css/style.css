@@ -1003,4 +1003,51 @@ footer {
     gap: 12px;
   }
 
+/* Permanent researchers and STM platform manager */
+.permanent-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 24px;
+  row-gap: 0;
+}
+
+.permanent-grid .people-group-heading {
+  grid-row: 1;
+  margin-bottom: 20px;
+}
+
+.permanent-grid .researchers-heading {
+  grid-column: 1 / span 3;
+}
+
+.permanent-grid .platform-heading {
+  grid-column: 4;
+}
+
+.permanent-grid .people-group-heading .subheading {
+  margin-top: 0;
+}
+
+.permanent-grid > .person {
+  grid-row: 2;
+}
+
+@media (max-width: 700px) {
+  .permanent-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .permanent-grid .researchers-heading {
+    grid-column: 1;
+  }
+
+  .permanent-grid .platform-heading {
+    grid-column: 2;
+  }
+
+  .permanent-grid > .person {
+    grid-row: auto;
+  }
+}
+
 }
