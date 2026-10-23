@@ -108,20 +108,11 @@ function renderTeam(){
   ];
 
   const permanentHTML = `
-    <div class="permanent-layout">
-      <div class="researchers-group">
-        <h2 class="subheading">Permanent researchers</h2>
-        <div class="people-grid">
-          ${researchers.map(personCard).join("")}
-        </div>
-      </div>
-
-      <div class="platform-group">
-        <h2 class="subheading">STM Platform Manager</h2>
-        <div class="people-grid">
-          ${songJiang ? personCard(songJiang) : ""}
-        </div>
-      </div>
+    <div class="permanent-grid">
+      <h2 class="subheading researchers-heading">Permanent researchers</h2>
+      <h2 class="subheading platform-heading">STM Platform Manager</h2>
+      ${researchers.map(personCard).join("")}
+      ${songJiang ? personCard(songJiang) : ""}
     </div>
   `;
 
