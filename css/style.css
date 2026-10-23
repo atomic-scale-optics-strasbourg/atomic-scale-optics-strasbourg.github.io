@@ -1044,10 +1044,66 @@ footer {
 .permanent-grid > .person:nth-of-type(3) { grid-column: 3; }
 .permanent-grid > .person:nth-of-type(4) { grid-column: 4; }
 
+/* Tablet and phone layout: keep each heading with its own group. */
 @media (max-width: 700px) {
   .permanent-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    row-gap: 18px;
+    column-gap: 12px;
+    row-gap: 16px;
+  }
+
+  .permanent-grid .researchers-heading {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .permanent-grid .platform-heading {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    margin-top: 12px;
+  }
+
+  .permanent-grid > .person {
+    grid-row: auto;
+    min-width: 0;
+    padding: 12px;
+  }
+
+  .permanent-grid > .person:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .permanent-grid > .person:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .permanent-grid > .person:nth-of-type(3) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .permanent-grid > .person:nth-of-type(4) {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .permanent-grid .subheading {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .permanent-grid .portrait {
+    max-width: 100%;
+  }
+}
+
+/* Narrow phones: use one column and put the manager section after all researchers. */
+@media (max-width: 520px) {
+  .permanent-grid {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 14px;
   }
 
   .permanent-grid .researchers-heading {
@@ -1056,23 +1112,28 @@ footer {
   }
 
   .permanent-grid .platform-heading {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .permanent-grid > .person {
-    grid-row: auto;
-    grid-column: auto !important;
-  }
-}
-
-@media (max-width: 520px) {
-  .permanent-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .permanent-grid .researchers-heading,
-  .permanent-grid .platform-heading {
     grid-column: 1;
+    grid-row: 5;
+    margin-top: 18px;
+  }
+
+  .permanent-grid > .person:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .permanent-grid > .person:nth-of-type(2) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .permanent-grid > .person:nth-of-type(3) {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .permanent-grid > .person:nth-of-type(4) {
+    grid-column: 1;
+    grid-row: 6;
   }
 }
